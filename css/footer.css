@@ -512,15 +512,11 @@ ul {
   display: none;
 }
 
-.support > input[type="radio"] {
+.support-toggle {
   display: none;
 }
 
-.support > input[id="sup"]:checked ~ label[for="close"] {
-  display: block;
-}
-
-.support > input[id="sup"]:checked ~ .suptext {
+.support-toggle:checked ~ .suptext {
   display: block;
 }
 
