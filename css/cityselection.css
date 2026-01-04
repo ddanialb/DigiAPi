@@ -1,0 +1,260 @@
+.left {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  .location {
+    width: 173px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 9999px;
+    background-color: #fef6ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    label {
+      display: flex;
+      flex-direction: row;
+    }
+    p {
+      color: #f57f17;
+      font-family: var(--font-family-4);
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+      cursor: pointer;
+    }
+    .selectCityBack {
+      inset: 0 0 0 0;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: none;
+      z-index: 99999999999;
+      justify-content: center;
+      .p {
+        margin-right: 5%;
+        p {
+          margin-top: 10px;
+          font-family: var(--font-family-1);
+          color: rgb(66, 66, 66);
+          font-size: 14px;
+          font-weight: 400;
+          max-width: 90%;
+          text-align: right;
+        }
+      }
+
+      .selectCityBox {
+        width: 30%;
+        height: 80%;
+        padding: 0px 12px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        position: absolute;
+        left: calc(50% - 27% / 2);
+        top: calc(50% - 80% / 2);
+        display: flex;
+        flex-direction: column;
+        .box-top {
+          width: 100%;
+          height: 10%;
+          padding: 0 20px;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: space-between;
+          top: 0;
+          right: 0;
+          border-bottom: 1px solid #f0f0f1;
+          p {
+            color: rgb(12, 12, 12);
+            font-size: 16px;
+            font-weight: 700;
+            font-family: var(--font-family-1);
+          }
+          label {
+            color: rgb(66, 71, 80);
+            font-size: 28px;
+            cursor: pointer;
+            font-family: var(--font-family-1);
+          }
+        }
+        .cities {
+          height: calc(100% - 100px);
+          display: flex;
+          padding: 0 5%;
+          margin-top: 10px;
+          flex-direction: column;
+          /* overflow-y: scroll; */
+          /* Utility classes that are actually used */
+          .flex-row {
+            display: flex;
+            flex-direction: row;
+          }
+
+          .px-12 {
+            padding-left: 12px;
+            padding-right: 12px;
+          }
+
+          .py-4 {
+            padding-top: 4px;
+            padding-bottom: 4px;
+          }
+
+          .px-16 {
+            padding-left: 16px;
+            padding-right: 16px;
+          }
+
+          .city {
+            padding: 2.5% 0;
+            .sub {
+              font-family: var(--font-family-1);
+              font-size: 14px;
+              font-weight: 400;
+              color: rgb(129, 133, 139);
+            }
+            span {
+              font-family: var(--font-family-1);
+              font-size: 14px;
+              font-weight: 700;
+            }
+          }
+        }
+
+        .scrollbar {
+          display: flex;
+          flex-direction: column;
+          direction: rtl;
+          overflow-y: scroll;
+          .swiper {
+            width: 90%;
+            margin-top: 2%;
+          }
+          .swiper-slide {
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 80px;
+            height: 50px;
+
+            .slide-item {
+              a {
+                display: inline-block;
+                min-width: 60px;
+                box-sizing: border-box;
+                text-decoration: none;
+                border: 1px solid rgb(220, 220, 220);
+                border-radius: 20px;
+                color: rgb(63, 64, 100);
+                font-family: var(--font-family-1);
+                font-size: 0.875rem;
+                font-weight: 600;
+                padding: 10px 16px;
+                margin: 0 6px;
+                transition: all 0.3s ease;
+              }
+            }
+          }
+
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          p {
+            margin-top: 10px;
+            font-family: var(--font-family-1);
+            color: rgb(63, 64, 100);
+            font-size: 17px;
+            font-weight: 700;
+            margin-right: 5%;
+            text-align: right;
+          }
+        }
+
+        .serarchBox {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-top: 10px;
+          .input {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 97%;
+            height: 44px;
+            padding-right: 20px;
+            background-color: #f0f0f1;
+            border: none;
+            border-radius: 8px;
+
+            input {
+              padding-left: 16px;
+              padding-right: 16px;
+              width: 100%;
+              font-size: 12px;
+              font-weight: 400;
+              font-family: var(--font-family-1);
+              text-align: right;
+              border: none;
+              outline: none;
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+    #modal:checked ~ .selectCityBack {
+      display: flex;
+    }
+    #close:checked ~ .selectCityBack {
+      display: none;
+    }
+    #modal,
+    #close {
+      display: none;
+    }
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  .menu-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #62666d;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--font-family-4);
+    &:hover {
+      border-bottom: 2px solid rgb(216, 45, 45);
+    }
+  }
+
+  img {
+    margin: 2px;
+    width: 18px;
+    height: 18px;
+  }
+
+  span {
+    margin: 4px 20px 0 0;
+    width: 1px;
+    height: 16px;
+    border-left: 1px solid #e0e0e2;
+  }
+}
