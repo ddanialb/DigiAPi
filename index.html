@@ -12,6 +12,7 @@
       .parallax-slider {
         position: sticky !important;
         z-index: 1 !important;
+        transition: top 0.3s ease-in-out;
       }
       .mobile-parallax-wrapper {
         position: relative !important;
@@ -27,6 +28,44 @@
     }
 
       body, html { overflow-x: clip; }
+
+    /* Animations for Desktop Category */
+    .category {
+      transition: all 0.3s ease-in-out;
+      overflow: hidden;
+    }
+    .hide-category {
+      height: 0 !important;
+      opacity: 0 !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin: 0 !important;
+    }
+    
+    /* Animations for Mobile Services */
+    .services-items {
+      transition: all 0.3s ease-in-out;
+      overflow: hidden;
+    }
+    .services-items img {
+      transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, margin 0.3s ease-in-out, transform 0.3s ease-in-out;
+      max-height: 40px;
+      transform-origin: bottom;
+    }
+    .header-shrunk .services-items {
+      height: 36px !important;
+      justify-content: center !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+    .header-shrunk .services-items img {
+      max-height: 0px !important;
+      opacity: 0 !important;
+      margin-bottom: 0 !important;
+      margin-top: 0 !important;
+      transform: scaleY(0);
+    }
+
   </style>
 </head>
 
@@ -381,7 +420,7 @@
     <!--#endregion list-->
     <!--#region incredible-->
     <div
-      class="incredible rounded-2xl bg-[#e4344e] max-w-420 mobile:mt-6 desktop:mt-4 w-[90%] flex justify-evenly pr-3 items-start py-6 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar">
+      class="incredible mx-auto rounded-2xl bg-[#e4344e] max-w-420 mobile:mt-6 desktop:mt-4 w-[90%] flex justify-evenly pr-3 items-start py-6 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar">
       <div class="swiper inc-swiper w-full h-65">
         <div class="swiper-wrapper inc-wrapper">
           <div class="swiper-slide bg-none !w-35 py-2 rounded-lg flex flex-col justify-center! items-center!">
@@ -1732,6 +1771,42 @@
   <div class="bg-close bg-black/20 w-screen h-screen absolute z-0 hidden"></div>
 
   <script>
+    let lastScrollY = window.scrollY;
+
+    function handleScroll() {
+      const currentScrollY = window.scrollY;
+
+      // Desktop Category hide/show on scroll direction
+      if (window.innerWidth >= 1024) {
+        const desktopCategory = document.querySelector('header.desktop\\:block .category');
+        if (desktopCategory) {
+          if (currentScrollY > lastScrollY && currentScrollY > 100) {
+            desktopCategory.classList.add('hide-category');
+          } else if (currentScrollY < lastScrollY) {
+            desktopCategory.classList.remove('hide-category');
+          }
+        }
+      }
+
+      // Mobile services shrink
+      if (window.innerWidth < 1024) {
+        const mHeader = document.querySelector("header.sticky.mobile\\:block");
+        const listRegion = document.querySelector(".list") || document.querySelector(".more-list");
+        if (mHeader && listRegion) {
+          const headerBottom = mHeader.getBoundingClientRect().bottom;
+          const listTop = listRegion.getBoundingClientRect().top;
+          // If the list element is near or under the header
+          if (listTop <= headerBottom + 100) {
+            mHeader.classList.add('header-shrunk');
+          } else {
+            mHeader.classList.remove('header-shrunk');
+          }
+        }
+      }
+
+      lastScrollY = currentScrollY;
+    }
+
     function updateParallax() {
       const mHeader = document.querySelector("header.sticky.mobile\\:block");
       const pSlider = document.querySelector(".parallax-slider");
@@ -1741,8 +1816,20 @@
         pSlider.style.removeProperty("top");
       }
     }
-    document.addEventListener("DOMContentLoaded", updateParallax);
+
+    document.addEventListener("DOMContentLoaded", () => {
+      updateParallax();
+      lastScrollY = window.scrollY;
+      
+      const mHeader = document.querySelector("header.sticky.mobile\\:block");
+      if (mHeader && window.ResizeObserver) {
+        new ResizeObserver(() => {
+          updateParallax();
+        }).observe(mHeader);
+      }
+    });
     window.addEventListener("resize", updateParallax);
+    window.addEventListener("scroll", handleScroll, { passive: true });
   </script>
   <script type="module" src="./src/js/main.js"></script>
 </body>
