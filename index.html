@@ -13,11 +13,11 @@
       .parallax-slider {
         align-self: flex-start;
         position: sticky !important;
-        top: 170px !important;
+        top: 140px !important;
         z-index: 1 !important;
       }
       .parallax-content {
-        background-color: white !important;
+        /* no bg override */
       }
     }
     @media (min-width: 1024px) {
@@ -36,13 +36,12 @@
   <main
     class="relative z-1 w-full flex justify-center items-center flex-col desktop:gap-4 overflow-y-visible">
     <!--#region header-desktop-->
-    <div class="w-full mobile:hidden desktop:block">
       <!--#region header-banner-->
-      <div class="banner h-15 w-full">
+      <div class="banner h-15 w-full mobile:hidden desktop:block">
         <a href="#"><img src="./src/img/Header/Banner.jpg" alt="" class="h-full w-full object-cover" /></a>
       </div>
       <!--#endregion header-banner-->
-      <header class="w-full bg-white shadow shadow-slate-400 sticky top-0 left-0 z-50"
+      <header class="w-full bg-white shadow shadow-slate-400 sticky top-0 left-0 z-50 mobile:hidden desktop:block"
         style="height: 100px;">
         <div class="header-container max-w-450 w-full mx-auto flex-col gap-2 justify-start items-center">
         <!--#region header-search-->
@@ -309,13 +308,12 @@
     <!--#endregion header-desktop-->
 
     <!--#region header-mobile-->
-    <div class="w-full mobile:block desktop:hidden">
       <!--#region header-Mbanner-->
-      <div class="w-full h-10">
+      <div class="w-full h-10 mobile:block desktop:hidden">
         <img src="./src/img/Header/mobile/banner.jpg" alt="" class="h-full w-full object-cover" />
       </div>
       <!--#endregion header-Mbanner-->
-      <header class="w-full bg-[#f2f3f5] sticky top-0 left-0 right-0 z-50 shadow-sm">
+      <header class="w-full bg-[#f2f3f5] sticky top-0 left-0 right-0 z-50 shadow-sm mobile:block desktop:hidden">
       <!--#region header-Mservices-->
       <div class="services w-full flex justify-center items-center gap-2 p-2 my-2">
         <!--db.json/api-->
@@ -344,7 +342,6 @@
         <img src="./src/img/Header/left-black.svg" alt="" class="w-4" />
       </div>
     </header>
-    </div>
     <!--#endregion header-mobile-->
 
     <!--#region story-->
@@ -373,7 +370,7 @@
     </div>
     <!--#endregion slider-->
     <!-- Container for Parallax overlay -->
-    <div class="w-full flex flex-col items-center bg-white relative z-10 shadow-[0_-5px_15px_rgba(0,0,0,0.05)] parallax-content">
+    <div class="w-full flex flex-col items-center bg-[#f2f3f5] relative z-10 shadow-[0_-5px_15px_rgba(0,0,0,0.05)] parallax-content">
     <!--#region list-->
     <div
       class="max-w-420 mobile:mt-6 desktop:mt-4 w-full flex justify-evenly px-10 items-start h-30 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar">
@@ -1739,7 +1736,18 @@
   <!--#endregion essentials-->
   <div class="bg-close bg-black/20 w-screen h-screen absolute z-0 hidden"></div>
 
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const mHeader = document.querySelector("header.sticky.mobile\\:block");
+      const pSlider = document.querySelector(".parallax-slider");
+      if (mHeader && pSlider && window.innerWidth < 1024) {
+        pSlider.style.setProperty("top", mHeader.offsetHeight + "px", "important");
+      }
+    });
+  </script>
   <script type="module" src="./src/js/main.js"></script>
+
 </body>
 
-</html>
+</html><script src="./inject.js"></script>
