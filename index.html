@@ -1,5 +1,6 @@
 ﻿<!doctype html>
 <html lang="en" dir="rtl">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,17 +11,23 @@
     @media (max-width: 1023px) {
       .parallax-slider {
         position: sticky !important;
-        top: 140px !important;
         z-index: 1 !important;
+      }
+      .mobile-parallax-wrapper {
+        position: relative !important;
+        z-index: 10 !important;
+        background-color: #f2f3f5 !important;
+        width: 100% !important;
       }
     }
     @media (min-width: 1024px) {
-      .parallax-slider {
-        margin-top: 16px !important; 
+      .desktop-contents {
+        display: contents !important;
       }
     }
   </style>
 </head>
+
 <body>
   <main
     class="relative z-1 w-full flex justify-center items-center flex-col desktop:gap-4 overflow-x-hidden">
@@ -30,9 +37,9 @@
         <a href="#"><img src="./src/img/Header/Banner.jpg" alt="" class="h-full w-full object-cover" /></a>
       </div>
       <!--#endregion header-banner-->
-      <header class="w-full bg-white shadow shadow-slate-400 sticky top-0 left-0 z-50 mobile:hidden desktop:block"
-        style="height: 100px;">
-        <div class="header-container max-w-450 w-full mx-auto flex-col gap-2 justify-start items-center">
+    <header class="w-full mobile:hidden desktop:block bg-white shadow shadow-slate-400 sticky top-0 left-0 z-50"
+      style="height: 100px;">
+      <div class="header-container max-w-450 w-full mx-auto flex-col gap-2 justify-start items-center">
         <!--#region header-search-->
         <div class="search flex py-2 w-full relative px-4 gap-6 justify-start items-center">
           <!--#region header-search-logo-->
@@ -42,6 +49,7 @@
                 class="w-full h-full object-contain" /></a>
           </div>
           <!--#endregion header-search-logo-->
+
           <!--#region header-search-searchbar-->
           <div class="searchbar h-auto relative flex-shrink-0"
             style="width: 500px; min-width: 500px; max-width: 500px;">
@@ -151,6 +159,7 @@
             <!--#endregion header-search-searchbar-history-->
           </div>
           <!--#endregion header-search-searchbar-->
+
           <!--#region header-search-account-->
           <div class="account w-auto h-12 flex justify-center items-center gap-5 mr-auto">
             <div class="notif">
@@ -240,6 +249,7 @@
                 </g>
               </svg>
               <span class="font-Iran font-bold text-[#574a6d] text-sm mt-2">دسته‌بندی کالاها</span>
+
               <!--#region header-category-items-annoying-->
               <div class="mega-menu-container"></div>
               <!--#endregion header-category-items-annoying-->
@@ -290,15 +300,15 @@
         <!--#endregion header-category-->
       </div>
     </header>
-    </div>
     <!--#endregion header-desktop-->
+
     <!--#region header-mobile-->
       <!--#region header-Mbanner-->
       <div class="w-full h-10 mobile:block desktop:hidden">
         <img src="./src/img/Header/mobile/banner.jpg" alt="" class="h-full w-full object-cover" />
       </div>
       <!--#endregion header-Mbanner-->
-      <header class="w-full bg-[#f2f3f5] sticky top-0 left-0 right-0 z-50 shadow-sm mobile:block desktop:hidden">
+    <header class="w-full mobile:block desktop:hidden bg-[#f2f3f5] sticky top-0 left-0 right-0 z-50 shadow-sm">
       <!--#region header-Mservices-->
       <div class="services w-full flex justify-center items-center gap-2 p-2 my-2">
         <!--db.json/api-->
@@ -328,8 +338,9 @@
       </div>
     </header>
     <!--#endregion header-mobile-->
+
     <!--#region story-->
-    <div class="story max-w-370 w-7xl px-4 mobile:hidden desktop:block mobile:mt-0 desktop:mt-6">
+    <div class="story max-w-370 w-7xl px-4 mobile:hidden desktop:block desktop:mt-4">
       <div class="swiper Story">
         <div class="swiper-wrapper story-wrapper">
           <!--db.json/api-->
@@ -339,6 +350,7 @@
       </div>
     </div>
     <!--#endregion story-->
+
     <!--#region slider-->
     <div
       class="slider parallax-slider max-w-420 w-full mobile:bg-[#f2f3f5] desktop:bg-none mobile:py-4 desktop:py-0">
@@ -352,9 +364,10 @@
       </div>
     </div>
     <!--#endregion slider-->
-        <!--#region list-->
+    <div class="mobile-parallax-wrapper desktop-contents">
+    <!--#region list-->
     <div
-      class="max-w-420 mobile:mt-6 desktop:mt-4 w-full flex justify-evenly px-10 items-start h-30 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar mobile:relative mobile:z-10 mobile:bg-[#f2f3f5] desktop:bg-transparent">
+      class="max-w-420 mobile:mt-6 desktop:mt-4 w-full flex justify-evenly px-10 items-start h-30 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar">
       <div class="list flex justify-evenly items-center desktop:w-full"></div>
       <div class="more-list flex flex-col w-20 justify-start items-center gap-1 h-30 cursor-pointer">
         <div class="rounded-full bg-[#f2f3f5] w-12 h-12 flex justify-center items-center">
@@ -366,7 +379,7 @@
     <!--#endregion list-->
     <!--#region incredible-->
     <div
-      class="incredible rounded-2xl bg-[#e4344e] max-w-420 mobile:mt-6 desktop:mt-4 w-[90%] flex justify-evenly pr-3 items-start py-6 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar mobile:relative mobile:z-10">
+      class="incredible rounded-2xl bg-[#e4344e] max-w-420 mobile:mt-6 desktop:mt-4 w-[90%] flex justify-evenly pr-3 items-start py-6 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar">
       <div class="swiper inc-swiper w-full h-65">
         <div class="swiper-wrapper inc-wrapper">
           <div class="swiper-slide bg-none !w-35 py-2 rounded-lg flex flex-col justify-center! items-center!">
@@ -392,6 +405,7 @@
               </a>
             </div>
           </div>
+
           <!--db.json/api-->
         </div>
         <div class="swiper-button-next inc-next"></div>
@@ -399,7 +413,6 @@
       </div>
     </div>
     <!--#endregion incredible-->
-    <div class="w-full flex flex-col items-center desktop:gap-4 mobile:relative mobile:z-10 mobile:bg-white desktop:bg-transparent">
     <!--#region ads-->
     <div
       class="ads mobile:w-full flex flex-wrap desktop:justify-between mobile:justify-center items-center my-2 max-w-420 mobile:mt-6 desktop:mt-4 desktop:!w-[90%] mobile:gap-2">
@@ -450,6 +463,7 @@
               </div>
             </div>
           </div>
+
           <a href="#" class="flex justify-center items-center font-Iran text-white text-[12px]">
             همه
             <img src="./src/img/left-white.svg" alt="" class="w-6" />
@@ -510,10 +524,12 @@
             محبوب‌ترین برندها
           </span>
         </div>
+
         <div
           class="brands-mobile mt-3 flex gap-1 pr-1 items-start mobile:flex desktop:hidden overflow-x-scroll overflow-y-hidden no-scrollbar w-full">
           <!--db.json/api-->
         </div>
+
         <div class="w-full mobile:hidden desktop:block mt-4">
           <div class="swiper brands-swiper w-full">
             <div class="swiper-wrapper brands-wrapper">
@@ -742,6 +758,7 @@
         </div>
         <a href="#" class="font-Iran text-[#19bfd3] text-[16px] mobile:hidden desktop:block">مشاهده همه</a>
       </div>
+
       <div class="mobile:hidden desktop:block mt-2">
         <div class="swiper indemand-swiper w-full">
           <div class="swiper-wrapper indemand-wrapper">
@@ -751,6 +768,7 @@
           <div class="swiper-button-prev indemand-prev"></div>
         </div>
       </div>
+
       <div class="mobile:block desktop:hidden mt-2">
         <div class="swiper indemand-mobile-swiper w-full">
           <div class="swiper-wrapper indemand-mobile-wrapper">
@@ -790,6 +808,7 @@
           <span class="font-Iran desktop:text-[24px] mobile:text-[18px] font-semibold">داغ ترین چند ساعت گذشته</span>
         </div>
       </div>
+
       <div class="mobile:hidden desktop:block mt-2">
         <div class="swiper hot-swiper w-full">
           <div class="swiper-wrapper hot-wrapper">
@@ -799,6 +818,7 @@
           <div class="swiper-button-prev hot-prev"></div>
         </div>
       </div>
+
       <div class="mobile:block desktop:hidden mt-2">
         <div class="swiper hot-mobile-swiper w-full">
           <div class="swiper-wrapper hot-mobile-wrapper">
@@ -834,6 +854,7 @@
           <img src="./src/img/footer/up.svg" alt="" class="w-4 h-4" />
         </button>
       </div>
+
       <div class="border-t border-[#e0e0e2]">
         <div class="flex justify-between items-center gap-3 py-4">
           <div class="flex items-center gap-3 min-w-0">
@@ -847,12 +868,14 @@
               </p>
             </div>
           </div>
+
           <a href="tel:02143300000"
             class="font-Iran shrink-0 rounded-full bg-[#f0f0f1] px-5 py-3 text-[13px] text-[#3f4064]">
             تماس
           </a>
         </div>
       </div>
+
       <div class="border-t border-[#e0e0e2]">
         <div class="flex justify-between items-center gap-3 py-4">
           <div class="flex items-center gap-3 min-w-0">
@@ -866,11 +889,13 @@
               </p>
             </div>
           </div>
+
           <a href="#app" class="font-Iran shrink-0 rounded-full bg-[#f0f0f1] px-5 py-3 text-[13px] text-[#3f4064]">
             دانلود
           </a>
         </div>
       </div>
+
       <div class="border-t border-[#e0e0e2]">
         <!-- با دیجی‌کالا -->
         <div class="border-b border-[#e0e0e2]">
@@ -880,12 +905,14 @@
             <img src="./src/img/footer/chevron-down.svg" alt=""
               class="footer-acc-chevron w-5 h-5 transition-transform duration-200" />
           </button>
+
           <div id="footer-acc-1" class="footer-acc-body hidden bg-[#fafafa] px-4 py-2">
             <a href="#" class="font-Iran text-[13px] text-[#3f4064] block py-2">درباره دیجی‌کالا</a>
             <a href="#" class="font-Iran text-[13px] text-[#3f4064] block py-2">زندگی و اکوسیستم</a>
             <a href="#" class="font-Iran text-[13px] text-[#3f4064] block py-2">فرصت‌های شغلی</a>
           </div>
         </div>
+
         <!-- خدمات مشتریان -->
         <div class="border-b border-[#e0e0e2]">
           <button type="button" class="footer-acc-head w-full flex justify-between items-center py-4 text-right"
@@ -894,12 +921,14 @@
             <img src="./src/img/footer/chevron-down.svg" alt=""
               class="footer-acc-chevron w-5 h-5 transition-transform duration-200" />
           </button>
+
           <div id="footer-acc-2" class="footer-acc-body hidden bg-[#fafafa] px-4 py-2">
             <a href="#" class="font-Iran text-[13px] text-[#3f4064] block py-2">راهنمای پرداخت</a>
             <a href="#" class="font-Iran text-[13px] text-[#3f4064] block py-2">راهنمای ارسال</a>
             <a href="#" class="font-Iran text-[13px] text-[#3f4064] block py-2">راهنمای کالا</a>
           </div>
         </div>
+
         <!-- راهنمای خرید از دیجی‌کالا -->
         <div class="border-b border-[#e0e0e2]">
           <button type="button" class="footer-acc-head w-full flex justify-between items-center py-4 text-right"
@@ -908,12 +937,14 @@
             <img src="./src/img/footer/chevron-down.svg" alt=""
               class="footer-acc-chevron w-5 h-5 transition-transform duration-200" />
           </button>
+
           <div id="footer-acc-3" class="footer-acc-body hidden bg-[#fafafa] px-4 py-2">
             <a href="#" class="font-Iran text-[13px] text-[#3f4064] block py-2">نحوه خرید</a>
             <a href="#" class="font-Iran text-[13px] text-[#3f4064] block py-2">نحوه ثبت سفارش</a>
             <a href="#" class="font-Iran text-[13px] text-[#3f4064] block py-2">نحوه پیگیری سفارش</a>
           </div>
         </div>
+
         <!-- شرکای تجاری -->
         <div class="border-b border-[#e0e0e2]">
           <button type="button" class="footer-acc-head w-full flex justify-between items-center py-4 text-right"
@@ -922,6 +953,7 @@
             <img src="./src/img/footer/chevron-down.svg" alt=""
               class="footer-acc-chevron w-5 h-5 transition-transform duration-200" />
           </button>
+
           <div id="footer-acc-4" class="footer-acc-body hidden bg-[#fafafa] px-4 py-3">
             <div class="grid grid-cols-2 gap-2">
               <a href="#" class="border border-[#e0e0e2] rounded p-2 flex items-center justify-center h-12 bg-white">
@@ -943,10 +975,12 @@
           </div>
         </div>
       </div>
+
       <div class="pt-5">
         <h2 class="font-Iran text-[16px] font-bold text-[#1f1f1f] mb-3">
           دیجی کالا؛ بزرگترین فروشگاه اینترنتی ایران
         </h2>
+
         <div class="relative">
           <div id="bragging-text-m"
             class="text-[#717171] text-sm leading-[1.9] text-right overflow-hidden transition-[max-height] duration-300 max-h-[3.6em] [&_p]:mb-2.5">
@@ -962,10 +996,12 @@
               خرید اینترنتی ایران تعریف کرده است.
             </p>
           </div>
+
           <div id="bragging-fade-m"
             class="pointer-events-none absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-white from-40% to-transparent">
           </div>
         </div>
+
         <button type="button" class="bragging-more-m font-Iran flex items-center gap-1 text-[14px] text-[#81858b] pt-2"
           data-bragging-more-m>
           <span>مشاهده بیشتر</span>
@@ -986,6 +1022,7 @@
                       class="h-[30px] w-[195px] object-contain object-right" />
                   </a>
                 </div>
+
                 <div class="font-Iran text-[12px] text-[#404040] space-y-1.5">
                   <p class="m-0">
                     تلفن پشتیبانی: ۰۲۱-۴۳۳۰۰۰۱۰ - ۰۲۱-۹۱۰۰۰۱۰۰
@@ -993,6 +1030,7 @@
                   <p class="m-0">تهران، میدان ونک، خیابان ملاصدرا</p>
                 </div>
               </div>
+
               <button type="button"
                 class="footer-back-top font-Iran flex h-10 w-[137px] items-center justify-center gap-1 rounded-lg cursor-pointer border border-gray-300 text-[#a4a6ab] text-[12px]">
                 <img src="./src/img/footer/up.svg" alt="" class="w-3.5 h-3.5" />
@@ -1000,6 +1038,7 @@
               </button>
             </div>
           </div>
+
           <div class="footer-badges w-full py-2">
             <div class="footer-badges-center flex w-full justify-center items-stretch min-h-28">
               <div class="footer-badges-center-item flex-1 min-w-0">
@@ -1012,6 +1051,7 @@
                   </p>
                 </a>
               </div>
+
               <div class="footer-badges-center-item flex-1 min-w-0">
                 <a href="#" class="flex flex-col items-center justify-center gap-1.5 w-full h-full p-1">
                   <div class="item-top min-h-16 flex items-center">
@@ -1022,6 +1062,7 @@
                   </p>
                 </a>
               </div>
+
               <div class="footer-badges-center-item flex-1 min-w-0">
                 <a href="#" class="flex flex-col items-center justify-center gap-1.5 w-full h-full p-1">
                   <div class="item-top min-h-16 flex items-center">
@@ -1032,6 +1073,7 @@
                   </p>
                 </a>
               </div>
+
               <div class="footer-badges-center-item flex-1 min-w-0">
                 <a href="#" class="flex flex-col items-center justify-center gap-1.5 w-full h-full p-1">
                   <div class="item-top min-h-16 flex items-center">
@@ -1044,6 +1086,7 @@
               </div>
             </div>
           </div>
+
           <div class="extra w-full">
             <div class="extra-center w-full flex flex-wrap justify-between gap-8 py-2 px-4">
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 flex-1 w-full min-w-0">
@@ -1053,22 +1096,26 @@
                   <a href="#" class="font-Iran text-[12px] text-[#b3a69c] block my-2.5">زندگی و اکوسیستم</a>
                   <a href="#" class="font-Iran text-[12px] text-[#b3a69c] block my-2.5">فرصت‌های شغلی</a>
                 </div>
+
                 <div>
                   <p class="font-Iran text-[16px]">خدمات مشتریان</p>
                   <a href="#" class="font-Iran text-[12px] text-[#b3a69c] block my-2.5">راهنمای پرداخت</a>
                   <a href="#" class="font-Iran text-[12px] text-[#b3a69c] block my-2.5">راهنمای ارسال</a>
                   <a href="#" class="font-Iran text-[12px] text-[#b3a69c] block my-2.5">راهنمای کالا</a>
                 </div>
+
                 <div>
                   <p class="font-Iran text-[16px]">راهنما</p>
                   <a href="#" class="font-Iran text-[12px] text-[#b3a69c] block my-2.5">نحوه خرید</a>
                   <a href="#" class="font-Iran text-[12px] text-[#b3a69c] block my-2.5">نحوه ثبت سفارش</a>
                   <a href="#" class="font-Iran text-[12px] text-[#b3a69c] block my-2.5">نحوه پیگیری سفارش</a>
                 </div>
+
                 <div class="extra-center-last-unit flex flex-col w-full max-w-md gap-0">
                   <p class="font-Iran text-[16px] mb-2 text-[#3f4064]">
                     از تخفیف جا نمانید
                   </p>
+
                   <form class="w-full" onsubmit="return false;">
                     <div class="flex rounded-lg overflow-hidden bg-[#f0f0f1] p-0.5 gap-0.5 w-full h-[50px] max-w-sm">
                       <input type="email" readonly
@@ -1080,6 +1127,7 @@
                       </button>
                     </div>
                   </form>
+
                   <div class="footer-social-row flex items-center justify-start gap-8 my-4 flex-wrap">
                     <a href="#"><img src="./src/img/footer/insta.svg" alt="" class="w-8 h-8 object-contain" /></a>
                     <a href="#"><img src="./src/img/footer/twitter.svg" alt="" class="w-8 h-8 object-contain" /></a>
@@ -1090,6 +1138,7 @@
               </div>
             </div>
           </div>
+
           <div class="download w-full px-4 my-2">
             <div class="download-center rounded-2xl bg-[#3c4b6d] flex flex-wrap items-center justify-between gap-4 p-4">
               <div class="flex items-center gap-4 min-w-0">
@@ -1098,6 +1147,7 @@
                   همیشه به‌دست آوردن موبایل با اپلیکیشن‌های دیجی‌کالا
                 </p>
               </div>
+
               <div class="flex flex-wrap items-center justify-end gap-2">
                 <a href="#"><img src="./src/img/footer/store-bazaar.svg" alt=""
                     class="h-11 w-auto max-w-[140px] object-contain" /></a>
@@ -1109,6 +1159,7 @@
               </div>
             </div>
           </div>
+
           <div class="bragging border-t border-gray-200 w-full px-4 pt-6">
             <h3 class="font-Iran text-lg text-[#5b5b5b] font-bold m-0 mb-2 text-right">
               دیجی کالا؛ بزرگترین فروشگاه اینترنتی ایران
@@ -1336,10 +1387,12 @@
                       تجربه خواهید کرد.
                     </p>
                   </div>
+
                   <div id="bragging-fade-d"
                     class="pointer-events-none absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-white from-40% to-transparent">
                   </div>
                 </div>
+
                 <button type="button"
                   class="bragging-more-d font-Iran mb-3 inline-flex items-center gap-1 text-[14px] text-[#30c5d7]"
                   data-bragging-more-d>
@@ -1347,6 +1400,7 @@
                   <img src="./src/img/blueleftsmall.svg" alt="" class="w-4 h-4" />
                 </button>
               </div>
+
               <div class="bragging-badges flex flex-wrap items-center justify-end gap-2 w-100 my-2">
                 <a href="#" class="border border-[#e0e0e0] rounded p-2 flex items-center justify-center">
                   <img src="./src/img/footer/sep-1.png" alt="" class="w-16 h-16 object-contain" />
@@ -1364,6 +1418,7 @@
             </p>
           </div>
         </div>
+
         <div class="w-full bg-[#e4e4e6] p-px">
           <div class="perks mx-auto grid w-full grid-cols-2 gap-px sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
             <a href="#" class="flex h-20 items-center justify-center bg-white p-1"><img src="./src/img/footer/img1.svg"
@@ -1405,7 +1460,9 @@
       <div class="w-[90%] mx-auto flex justify-between items-center tab-menu"></div>
     </div>
     <!--#endregion tab-menu-->
+    </div>
   </main>
+
   <!--#region essentials-->
   <!--#region mobile-tabs-category-->
   <div class="fixed inset-0 z-[200] hidden font-Iran desktop:hidden" data-tabs>
@@ -1417,13 +1474,16 @@
           <span class="font-Iran text-lg font-bold text-[#23254e]">
             دسته‌بندی کالاها
           </span>
+
           <button type="button" class="flex h-11 w-11 items-center justify-center" data-tabs-close aria-label="بستن">
             <img src="./src/img/fixed-button/svgexport-32.svg" alt="" class="h-7 w-7" />
           </button>
         </div>
+
         <div class="flex min-h-0 flex-1">
           <div class="h-full w-[120px] shrink-0 overflow-y-auto bg-[#f0f0f1] [scrollbar-width:none]" data-tabs-list>
           </div>
+
           <div class="min-w-0 flex-1 overflow-y-auto bg-white px-5 py-4" data-tabs-content></div>
         </div>
       </div>
@@ -1436,8 +1496,10 @@
       class="fixed bottom-6 flex-row-reverse left-4 z-[60] flex h-[60px] w-[160px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full bg-[#029a49] px-3 text-white shadow-sm transition-[width] duration-500 ease-out"
       data-fixed-super-open aria-haspopup="dialog" aria-expanded="false">
       <img src="" alt="" class="h-[25px] w-[25px] shrink-0" data-fixed-super-basket-img />
+
       <span class="flex min-w-0 items-center justify-center overflow-hidden text-[16px] font-bold">
         <span class="whitespace-nowrap" data-super-label-collapsed>سوپرمارکت</span>
+
         <span class="hidden min-w-0 items-center gap-3 whitespace-nowrap" data-super-label-expanded>
           <span data-super-title-short>سوپرمارکت</span>
           <span class="h-6 w-px bg-white/50"></span>
@@ -1445,7 +1507,9 @@
         </span>
       </span>
     </button>
+
     <div class="fixed inset-0 z-[100] hidden bg-black/35" data-fixed-super-backdrop></div>
+
     <div
       class="fixed left-1/2 top-1/2 z-[110] hidden w-[min(460px,calc(100vw-1.5rem))] -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-3 text-right shadow-xl sm:px-5"
       data-fixed-super-panel role="dialog" aria-modal="true" aria-labelledby="fixed-super-title">
@@ -1453,12 +1517,15 @@
         <div>
           <h3 id="fixed-super-title" class="m-0 my-2.5 font-Iran text-base font-normal text-[#555675]"
             data-fixed-super-modal-title></h3>
+
           <p class="m-0 font-Iran text-xs text-[#c3c4c7]" data-fixed-super-modal-sub></p>
         </div>
+
         <button type="button" class="cursor-pointer p-2.5" data-fixed-super-close aria-label="بستن">
           <img src="./src/img/fixed-button/svgexport-32.svg" alt="" class="h-6 w-6" />
         </button>
       </div>
+
       <div class="mt-2.5 flex min-h-[20rem] w-full items-stretch justify-center gap-3 max-sm:flex-col"
         data-fixed-super-cards></div>
     </div>
@@ -1468,17 +1535,20 @@
   <div class="font-Iran" data-fixed-help>
     <!-- MOBILE ONLY -->
     <div class="desktop:hidden">
+
       <div
         class="fixed bottom-45 left-4 z-[60] rounded-full bg-[#3f4064] px-3 py-2 text-[12px] text-white shadow-md translate-y-full"
         data-help-mobile-bubble>
         <span data-help-mobile-bubble-text></span>
       </div>
+
       <a href="#"
         class="fixed bottom-20 left-4 z-[60] flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#7659f1] to-[#3a7afb] p-2.5 text-white shadow-sm"
         data-help-mobile-link aria-label="پشتیبانی">
         <img data-help-icon-mobile src="" alt="" class="h-6 w-6" />
       </a>
     </div>
+
     <!-- DESKTOP ONLY -->
     <div class="hidden desktop:block">
       <button type="button"
@@ -1486,6 +1556,7 @@
         data-help-open aria-label="پشتیبانی">
         <img data-help-icon src="" alt="" class="h-6 w-6" />
       </button>
+
       <button type="button"
         class="fixed bottom-6 right-12 z-[60] hidden h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-[#ef4056] p-2.5 text-white shadow-sm"
         data-help-close data-help-desktop-fab-close aria-label="بستن">
@@ -1494,6 +1565,7 @@
             d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z" />
         </svg>
       </button>
+
       <div
         class="fixed bottom-[4.5rem] right-12 z-[100] hidden h-[520px] max-h-[70vh] w-[min(360px,calc(100vw-1rem))] flex-col overflow-hidden rounded-2xl border border-[#ef4056] bg-white shadow-xl"
         data-help-panel>
@@ -1501,21 +1573,27 @@
           <h1 class="m-0 text-xl text-white" data-help-h-title>
             پشتیبانی آنلاین
           </h1>
+
           <button type="button" class="cursor-pointer border-0 bg-transparent p-0" data-help-close aria-label="بستن">
             <img src="./src/img/fixed-button/svgexport-42.svg" alt="" class="h-6 w-6" />
           </button>
         </div>
+
         <div class="relative min-h-0 flex-1 overflow-y-auto p-2 pb-20 [scrollbar-width:thin]">
           <h1 class="m-0 text-2xl font-bold" data-help-greeting>سلام 👋👋</h1>
+
           <p class="mt-1 font-Iran text-sm leading-8 text-[#3f4064]" data-help-intro></p>
+
           <div class="mt-4 space-y-4" data-help-faq></div>
         </div>
+
         <div
           class="absolute bottom-0 left-0 right-0 flex justify-center bg-gradient-to-t from-white from-60% to-transparent pb-3 pt-4">
           <div class="flex w-[90%] max-w-sm justify-center rounded-full bg-[#04b053]">
             <a class="flex w-full items-center justify-center gap-2 px-4 py-2.5 font-Iran text-base text-white no-underline"
               data-help-call href="#">
               <span class="font-Iran text-[16px] font-bold">تماس با ما</span>
+
               <img src="./src/img/left-white.svg" alt="" />
             </a>
           </div>
@@ -1583,6 +1661,7 @@
       </div>
       <hr class="w-full border border-[#eaeaec]" />
     </div>
+
     <div
       class="loc-scroll relative h-[85%] w-full overflow-y-auto p-3 pt-0 flex flex-col gap-4 justify-start items-center scroll-smooth">
       <div
@@ -1611,6 +1690,7 @@
             <div class="swiper-button-next city-next"></div>
           </div>
         </section>
+
       </div>
       <div class="cities-list w-full flex-col flex gap-2 justify-start items-center">
         <!--db.json/api-->
@@ -1618,7 +1698,6 @@
     </div>
   </div>
   <!-- #endregion location-modal -->
-    </div>
   <!--#region MSearch-popup-->
   <div
     class="w-screen h-screen bg-white fixed top-0 left-0 z-50 flex flex-col gap-4 justify-start items-center py-1 px-4 transition-all rounded-sm duration-500 MSearch-popup translate-y-full invisible opacity-0 pointer-events-none">
@@ -1649,6 +1728,7 @@
   <!--#endregion MSearch-popup-->
   <!--#endregion essentials-->
   <div class="bg-close bg-black/20 w-screen h-screen absolute z-0 hidden"></div>
+
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const mHeader = document.querySelector("header.sticky.mobile\\:block");
@@ -1660,4 +1740,5 @@
   </script>
   <script type="module" src="./src/js/main.js"></script>
 </body>
+
 </html>
