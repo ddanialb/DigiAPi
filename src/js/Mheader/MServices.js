@@ -8,7 +8,7 @@ async function Services() {
   try {
     const services = res.services.map((item) => {
       return `
-    <div class="swiper-slide services-items flex flex-col py-2 box-border rounded-lg border border-[#d7d7d7] justify-between items-center !w-[68px] !h-[66px] ${item.active ? "bg-[#e40138]" : "bg-white"}">
+    <div style="width: 68px; height: 66px;" class="swiper-slide services-items flex flex-col py-2 box-border rounded-lg border border-[#d7d7d7] justify-between items-center  ${item.active ? "bg-[#e40138]" : "bg-white"}">
       <img src="${item.Simg}" alt="" class="w-10 shrink-0">
       <span class="font-Iran text-[12px] font-normal text-center px-1 leading-tight line-clamp-2 w-full overflow-hidden ${item.active ? "text-white" : "text-black"}">
         ${item.Stitle}

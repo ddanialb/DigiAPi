@@ -3344,20 +3344,17 @@ html[dir="rtl"] [data-tabs-sheet] {
 
     /* Animations for Desktop Category */
     .category {
-      transition: height 0.3s ease, opacity 0.3s ease;
+      transition: margin-top 0.3s ease-in-out, opacity 0.3s ease-in-out;
       height: 32px;
+      margin-top: 0;
       overflow: visible !important;
+      position: relative;
+      z-index: 10;
     }
     .hide-category {
-      height: 0 !important;
-      min-height: 0 !important;
+      margin-top: -32px !important;
       opacity: 0 !important;
-      overflow: hidden !important;
-      padding-top: 0 !important;
-      padding-bottom: 0 !important;
-      margin-top: 0 !important;
-      margin-bottom: 0 !important;
-      border: none !important;
+      pointer-events: none !important;
     }
     
     /* Animations for Mobile Services */
@@ -3368,10 +3365,11 @@ html[dir="rtl"] [data-tabs-sheet] {
       transition: height 0.3s ease, padding 0.3s ease;
     }
     .services-items img {
-      transition: height 0.3s ease, opacity 0.2s ease, margin 0.3s ease;
+      transition: transform 0.3s ease, opacity 0.2s ease, margin 0.3s ease, height 0.3s ease;
       height: 40px; 
-      width: auto;
+      width: 40px;
       object-fit: contain;
+      transform-origin: center;
     }
     .header-shrunk .services-items {
       height: 32px !important;
@@ -3380,6 +3378,7 @@ html[dir="rtl"] [data-tabs-sheet] {
       padding-bottom: 2px !important;
     }
     .header-shrunk .services-items img {
+      transform: scale(0) !important;
       height: 0px !important;
       opacity: 0 !important;
       margin: 0 !important;

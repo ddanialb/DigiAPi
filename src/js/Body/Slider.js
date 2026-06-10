@@ -58,7 +58,7 @@ async function Slider() {
       breakpoints: {
         0: {
           slidesPerView: 1.1,
-          centeredSlides: true,
+          centeredSlides: false,
           spaceBetween: 2,
           speed: 500,
         },
