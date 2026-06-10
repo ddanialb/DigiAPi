@@ -191,3 +191,103 @@ html[dir="rtl"] [data-tabs-sheet] {
   right: 0;
   left: auto;
 }
+@media (max-width: 1023px) {
+      .parallax-slider {
+        position: sticky !important;
+        z-index: 1 !important;
+        
+      }
+      .mobile-parallax-wrapper {
+        position: relative !important;
+        z-index: 10 !important;
+        background-color: #f2f3f5 !important;
+        width: 100% !important;
+      }
+    }
+    @media (min-width: 1024px) {
+      .desktop-contents {
+        display: contents !important;
+      }
+    }
+
+      body, html { overflow-x: clip; }
+
+    /* Animations for Desktop Category */
+    .category {
+      transition: height 0.3s ease, opacity 0.3s ease;
+      height: 32px;
+      overflow: visible !important;
+    }
+    .hide-category {
+      height: 0 !important;
+      min-height: 0 !important;
+      opacity: 0 !important;
+      overflow: hidden !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      border: none !important;
+    }
+    
+    /* Animations for Mobile Services */
+    header.sticky.mobile\:block {
+      transition: height 0.3s ease;
+    }
+    .services-items {
+      transition: height 0.3s ease, padding 0.3s ease;
+    }
+    .services-items img {
+      transition: height 0.3s ease, opacity 0.2s ease, margin 0.3s ease;
+      height: 40px; 
+      width: auto;
+      object-fit: contain;
+    }
+    .header-shrunk .services-items {
+      height: 32px !important;
+      justify-content: center !important;
+      padding-top: 2px !important;
+      padding-bottom: 2px !important;
+    }
+    .header-shrunk .services-items img {
+      height: 0px !important;
+      opacity: 0 !important;
+      margin: 0 !important;
+    }
+
+    /* Parallax Slider */
+    @media (max-width: 1023px) {
+      .parallax-slider {
+        position: sticky !important;
+        top: var(--mob-header-normal, 168px) !important;
+        z-index: 1 !important;
+        transition: top 0.3s ease;
+      }
+      header.header-shrunk ~ .parallax-slider {
+        top: var(--mob-header-shrunk, 128px) !important;
+      }
+      .mobile-parallax-wrapper {
+        position: relative !important;
+        z-index: 10 !important;
+        background-color: #f2f3f5 !important;
+        width: 100% !important;
+      }
+    }
+    /* Mobile slider height fix */
+    @media (max-width: 1023px) {
+      .parallax-slider .swiper-slide img {
+        height: 180px !important;
+        width: 100% !important;
+        object-fit: cover !important; 
+      }
+      .parallax-slider .swiper-slide {
+        height: 180px !important;
+      }
+      .parallax-slider .swiper-wrapper {
+        height: 180px !important;
+      }
+      .parallax-slider {
+        height: 180px !important;
+      }
+    }
+

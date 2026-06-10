@@ -52,3 +52,4 @@ Blog();
 Footer();
 Menu();
 Tabs();
+import "./animations.js";
