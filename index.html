@@ -26,12 +26,13 @@
       }
     }
 
+      body, html { overflow-x: clip; }
   </style>
 </head>
 
 <body>
   <main
-    class="relative z-1 w-full flex justify-center items-center flex-col desktop:gap-4 ">
+    class="relative z-1 w-full flex justify-center items-center flex-col overflow-x-clip">
     <!--#region header-desktop-->
       <!--#region header-banner-->
       <div class="banner h-15 w-full mobile:hidden desktop:block">
@@ -365,7 +366,7 @@
       </div>
     </div>
     <!--#endregion slider-->
-    <div class="mobile-parallax-wrapper desktop-contents">
+    <div class="mobile-parallax-wrapper desktop-contents flex flex-col items-center w-full">
     <!--#region list-->
     <div
       class="max-w-420 mobile:mt-6 desktop:mt-4 w-full flex justify-evenly px-10 items-start h-30 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar">
@@ -1731,13 +1732,17 @@
   <div class="bg-close bg-black/20 w-screen h-screen absolute z-0 hidden"></div>
 
   <script>
-    document.addEventListener("DOMContentLoaded", () => {
+    function updateParallax() {
       const mHeader = document.querySelector("header.sticky.mobile\\:block");
       const pSlider = document.querySelector(".parallax-slider");
       if (mHeader && pSlider && window.innerWidth < 1024) {
         pSlider.style.setProperty("top", mHeader.offsetHeight + "px", "important");
+      } else if (pSlider) {
+        pSlider.style.removeProperty("top");
       }
-    });
+    }
+    document.addEventListener("DOMContentLoaded", updateParallax);
+    window.addEventListener("resize", updateParallax);
   </script>
   <script type="module" src="./src/js/main.js"></script>
 </body>
