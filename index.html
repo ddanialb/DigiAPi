@@ -1798,7 +1798,7 @@
     let isHeaderShrunk = false;
 
     function initMobileHeights() {
-      const mHeader = document.querySelector("header.sticky.mobile\:block");
+      const mHeader = document.querySelector("header.sticky.mobile\\:block");
       if (mHeader && window.innerWidth < 1024) {
         // Measure normal height
         mHeader.classList.remove('header-shrunk');
@@ -1824,7 +1824,7 @@
 
       // Desktop Category Transition
       if (window.innerWidth >= 1024) {
-        const desktopCategory = document.querySelector('header.desktop\:block .category');
+        const desktopCategory = document.querySelector('header.desktop\\:block .category');
         if (desktopCategory) {
           // Hysteresis for desktop to avoid jitter
           if (currentScrollY > 100 && currentScrollY > lastScrollY + 5) {
@@ -1837,7 +1837,7 @@
 
       // Mobile Services Shrink
       if (window.innerWidth < 1024) {
-        const mHeader = document.querySelector("header.sticky.mobile\:block");
+        const mHeader = document.querySelector("header.sticky.mobile\\:block");
         if (mHeader) {
           // Hysteresis to completely prevent bouncing/lag loop
           if (currentScrollY > 80 && !isHeaderShrunk) {
