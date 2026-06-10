@@ -16,17 +16,11 @@
         top: 140px !important;
         z-index: 1 !important;
       }
-      .parallax-content {
-        /* no bg override */
-      }
     }
     @media (min-width: 1024px) {
       .parallax-slider {
         align-self: flex-start;
         margin-top: 16px !important; 
-      }
-      .parallax-content {
-        box-shadow: none !important;
       }
     }
   </style>
@@ -34,7 +28,7 @@
 
 <body>
   <main
-    class="relative z-1 w-full flex justify-center items-center flex-col desktop:gap-4 overflow-y-visible">
+    class="relative z-1 w-full flex justify-center items-center flex-col desktop:gap-4 overflow-x-hidden">
     <!--#region header-desktop-->
       <!--#region header-banner-->
       <div class="banner h-15 w-full mobile:hidden desktop:block">
@@ -369,11 +363,10 @@
       </div>
     </div>
     <!--#endregion slider-->
-    <!-- Container for Parallax overlay -->
-    <div class="w-full flex flex-col items-center bg-[#f2f3f5] relative z-10 shadow-[0_-5px_15px_rgba(0,0,0,0.05)] parallax-content">
-    <!--#region list-->
+    
+        <!--#region list-->
     <div
-      class="max-w-420 mobile:mt-6 desktop:mt-4 w-full flex justify-evenly px-10 items-start h-30 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar">
+      class="max-w-420 mobile:mt-6 desktop:mt-4 w-full flex justify-evenly px-10 items-start h-30 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar mobile:relative mobile:z-10 mobile:bg-[#f2f3f5] desktop:bg-transparent">
       <div class="list flex justify-evenly items-center desktop:w-full"></div>
       <div class="more-list flex flex-col w-20 justify-start items-center gap-1 h-30 cursor-pointer">
         <div class="rounded-full bg-[#f2f3f5] w-12 h-12 flex justify-center items-center">
@@ -385,7 +378,7 @@
     <!--#endregion list-->
     <!--#region incredible-->
     <div
-      class="incredible rounded-2xl bg-[#e4344e] max-w-420 mobile:mt-6 desktop:mt-4 w-[90%] flex justify-evenly pr-3 items-start py-6 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar">
+      class="incredible rounded-2xl bg-[#e4344e] max-w-420 mobile:mt-6 desktop:mt-4 w-[90%] flex justify-evenly pr-3 items-start py-6 mobile:overflow-x-scroll overflow-y-hidden desktop:overflow-hidden no-scrollbar mobile:relative mobile:z-10">
       <div class="swiper inc-swiper w-full h-65">
         <div class="swiper-wrapper inc-wrapper">
           <div class="swiper-slide bg-none !w-35 py-2 rounded-lg flex flex-col justify-center! items-center!">
@@ -419,6 +412,7 @@
       </div>
     </div>
     <!--#endregion incredible-->
+    <div class="w-full mobile:relative mobile:z-10 mobile:bg-white desktop:bg-transparent">
     <!--#region ads-->
     <div
       class="ads mobile:w-full flex flex-wrap desktop:justify-between mobile:justify-center items-center my-2 max-w-420 mobile:mt-6 desktop:mt-4 desktop:!w-[90%] mobile:gap-2">
@@ -1466,8 +1460,6 @@
       <div class="w-[90%] mx-auto flex justify-between items-center tab-menu"></div>
     </div>
     <!--#endregion tab-menu-->
-    </div>
-    <!-- End Parallax overlay -->
   </main>
 
   <!--#region essentials-->
@@ -1705,6 +1697,7 @@
     </div>
   </div>
   <!-- #endregion location-modal -->
+    </div>
   <!--#region MSearch-popup-->
   <div
     class="w-screen h-screen bg-white fixed top-0 left-0 z-50 flex flex-col gap-4 justify-start items-center py-1 px-4 transition-all rounded-sm duration-500 MSearch-popup translate-y-full invisible opacity-0 pointer-events-none">
@@ -1750,4 +1743,4 @@
 
 </body>
 
-</html><script src="./inject.js"></script>
+</html>
