@@ -1,4 +1,4 @@
-import { getDB } from "./api";
+import { getDB } from "./api.js";
 
 function cardHtml(card) {
   const isOrange = card.tag?.variant === "orange";
@@ -37,67 +37,67 @@ function faqItemHtml(question, answer) {
 }
 
 function initFixedWidgets() {
-    const rootH = document.querySelector("[data-fixed-help]");
-    if (!rootH) return;
-  
-    const openBtn = rootH.querySelector("[data-help-open]");
-    const closeBtns = rootH.querySelectorAll("[data-help-close]");
-    const panel = rootH.querySelector("[data-help-panel]");
-    const closeFab = rootH.querySelector("[data-help-desktop-fab-close]");
-  
-    const mobileBubble = rootH.querySelector("[data-help-mobile-bubble]");
-    const mobileFloat = rootH.querySelector("[data-help-mobile-float]");
-  
-    let mobileClosed = false;
-  
-    function openHelp() {
-      openBtn.classList.add("hidden");
-  
-      closeFab.classList.remove("hidden");
-      closeFab.classList.add("flex");
-  
-      panel.classList.remove("hidden");
-      panel.classList.add("flex");
-    }
-  
-    function closeHelp() {
-      openBtn.classList.remove("hidden");
-  
-      closeFab.classList.add("hidden");
-      closeFab.classList.remove("flex");
-  
-      panel.classList.add("hidden");
-      panel.classList.remove("flex");
-    }
-  
-    function handleScroll() {
-      const doc = document.documentElement;
-      const ratio =
-        window.scrollY / (doc.scrollHeight - window.innerHeight);
-  
-      if (ratio >= 0.1 && window.innerWidth < 1024 && !mobileClosed) {
-        mobileClosed = true;
-  
-        mobileBubble?.classList.add("hidden");
-  
-        setTimeout(() => {
-          mobileFloat?.classList.remove("hidden");
-          mobileFloat?.classList.add("animate-bounce");
-        }, 2000);
-      }
-    }
-  
-    openBtn?.addEventListener("click", openHelp);
-    closeBtns.forEach((btn) => btn.addEventListener("click", closeHelp));
-  
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") closeHelp();
-    });
-  
-    window.addEventListener("scroll", handleScroll, { passive: true });
-  
-    closeHelp(); // start closed
+  const rootH = document.querySelector("[data-fixed-help]");
+  if (!rootH) return;
+
+  const openBtn = rootH.querySelector("[data-help-open]");
+  const closeBtns = rootH.querySelectorAll("[data-help-close]");
+  const panel = rootH.querySelector("[data-help-panel]");
+  const closeFab = rootH.querySelector("[data-help-desktop-fab-close]");
+
+  const mobileBubble = rootH.querySelector("[data-help-mobile-bubble]");
+  const mobileFloat = rootH.querySelector("[data-help-mobile-float]");
+
+  let mobileClosed = false;
+
+  function openHelp() {
+    openBtn.classList.add("hidden");
+
+    closeFab.classList.remove("hidden");
+    closeFab.classList.add("flex");
+
+    panel.classList.remove("hidden");
+    panel.classList.add("flex");
   }
+
+  function closeHelp() {
+    openBtn.classList.remove("hidden");
+
+    closeFab.classList.add("hidden");
+    closeFab.classList.remove("flex");
+
+    panel.classList.add("hidden");
+    panel.classList.remove("flex");
+  }
+
+  function handleScroll() {
+    const doc = document.documentElement;
+    const ratio =
+      window.scrollY / (doc.scrollHeight - window.innerHeight);
+
+    if (ratio >= 0.1 && window.innerWidth < 1024 && !mobileClosed) {
+      mobileClosed = true;
+
+      mobileBubble?.classList.add("hidden");
+
+      setTimeout(() => {
+        mobileFloat?.classList.remove("hidden");
+        mobileFloat?.classList.add("animate-bounce");
+      }, 2000);
+    }
+  }
+
+  openBtn?.addEventListener("click", openHelp);
+  closeBtns.forEach((btn) => btn.addEventListener("click", closeHelp));
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeHelp();
+  });
+
+  window.addEventListener("scroll", handleScroll, { passive: true });
+
+  closeHelp(); // start closed
+}
 
 function fillFromApi() {
   const rootS = document.querySelector("[data-fixed-super]");
