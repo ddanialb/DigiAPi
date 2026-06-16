@@ -11,23 +11,30 @@ async function Partner() {
     if (middleBannerWidget && middleBannerWidget.data && middleBannerWidget.data.length > 0) {
       const banners = middleBannerWidget.data;
 
-      // Partnership section (first 2 banners)
-      const partner = banners.slice(0, 2).map((banner, index) => {
+      // Partnership section - Desktop: 2 banners, Mobile: 1 banner (Voche only)
+      const partnerDesktop = banners.slice(0, 2).map((banner, index) => {
         const imageUrl = banner.webp_image || banner.image;
         const bannerUri = banner.url?.uri || "";
         const url = bannerUri ? `https://www.digikala.com${bannerUri}` : "#";
         const title = banner.title || "";
 
         return `
-          <a href="${url}" target="_blank" class="mobile:block desktop:block desktop:rounded-2xl mobile:rounded-lg overflow-hidden cursor-pointer mobile:w-[95%] desktop:w-[49%]" title="${title}">
+          <a href="${url}" target="_blank" class="desktop:block mobile:hidden desktop:rounded-2xl overflow-hidden cursor-pointer desktop:w-[49%]" title="${title}">
             <img src="${imageUrl}" alt="${title}" class="w-full object-cover">
           </a>
         `;
       });
 
+      // Mobile: Only first banner (Voche)
+      const partnerMobile = `
+        <a href="https://www.digikala.com${banners[0].url?.uri || '#'}" target="_blank" class="mobile:block desktop:hidden w-[95%] border border-[#eaeaec] rounded-lg overflow-hidden cursor-pointer">
+          <img src="${banners[0].webp_image || banners[0].image}" alt="${banners[0].title}" title="${banners[0].title}" class="w-full h-full object-cover" />
+        </a>
+      `;
+
       const partnershipContainer = document.querySelector(".partnership");
       if (partnershipContainer) {
-        partnershipContainer.innerHTML = partner.join("");
+        partnershipContainer.innerHTML = partnerDesktop.join("") + partnerMobile;
       }
 
       // Partnership2 section (next 2 banners if available)

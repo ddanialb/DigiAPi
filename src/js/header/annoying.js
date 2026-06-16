@@ -262,7 +262,7 @@ async function Annoying() {
     const megaMenuHTML = `
       <div
         class="annoying hidden group-hover/grand:block transition-all duration-200 h-[65vh] absolute z-10 overflow-visible"
-        style="top: calc(100% - 2px); right: 0;"
+        style="top: calc(100% - 5px); right: 0;"
       >
         <div
           class="direction direction-ltr h-full overflow-y-scroll scroll-smooth overflow-x-visible"

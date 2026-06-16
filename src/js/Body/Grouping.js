@@ -29,7 +29,7 @@ async function Grouping() {
           ? `
             <div class="flex flex-col justify-between items-center w-full h-[200px] cursor-pointer">
               <a href="https://www.digikala.com${first.url?.uri || '#'}" target="_blank" class="flex flex-col justify-center items-center w-full gap-2">
-                <img src="${first.image}" alt="${first.title}" class="w-25">
+                <img src="${first.image}" alt="${first.title}" class="w-25 h-25 object-contain">
                 <span class="font-Iran text-[12px] text-center font-semibold">${first.title}</span>
               </a>
             </div>
@@ -41,7 +41,7 @@ async function Grouping() {
           ? `
             <div class="flex flex-col justify-between items-center w-full h-[200px] cursor-pointer">
               <a href="https://www.digikala.com${second.url?.uri || '#'}" target="_blank" class="flex flex-col justify-center items-center w-full gap-2">
-                <img src="${second.image}" alt="${second.title}" class="w-25">
+                <img src="${second.image}" alt="${second.title}" class="w-25 h-25 object-contain">
                 <span class="font-Iran text-[12px] text-center font-semibold">${second.title}</span>
               </a>
             </div>
@@ -66,7 +66,7 @@ async function Grouping() {
           ? `
             <div class="flex flex-col justify-center items-center w-full cursor-pointer">
               <a href="https://www.digikala.com${first.url?.uri || '#'}" target="_blank" class="flex flex-col justify-center items-center w-full gap-1">
-                <img src="${first.image}" alt="${first.title}" class="w-20">
+                <img src="${first.image}" alt="${first.title}" class="w-20 h-20 object-contain">
                 <span class="font-Iran text-[10px] text-center">${first.title}</span>
               </a>
             </div>
@@ -78,7 +78,7 @@ async function Grouping() {
           ? `
             <div class="flex flex-col justify-center items-center w-full cursor-pointer">
               <a href="https://www.digikala.com${second.url?.uri || '#'}" target="_blank" class="flex flex-col justify-center items-center w-full gap-1">
-                <img src="${second.image}" alt="${second.title}" class="w-20">
+                <img src="${second.image}" alt="${second.title}" class="w-20 h-20 object-contain">
                 <span class="font-Iran text-[10px] text-center">${second.title}</span>
               </a>
             </div>

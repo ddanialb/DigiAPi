@@ -3,20 +3,19 @@
 @theme {
   --breakpoint-desktop: 1024px;
   --breakpoint-mobile: 10px;
-  --font-Iran: IranYekan;
+  --font-Iran: Shabnam;
   --border-color: #d7d7d7;
   --spacing-color: #d7d7d7;
-  --font-number: NumberFarsi;
+  --font-number: Shabnam;
 }
 
 @font-face {
-  font-family: IranYekan;
-  src: url(../fonts/iranyekanwebregular.e31c09af.woff2);
-}
-
-@font-face {
-  font-family: NumberFarsi;
-  src: url(../fonts/PersianPageNumber-Bold.ttf);
+  font-family: Shabnam;
+  src: url(../fonts/Shabnam-Light-FD.woff2) format('woff2'),
+    url(../fonts/Shabnam-Light-FD.woff) format('woff'),
+    url(../fonts/Shabnam-Light-FD.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @layer utilities {
@@ -191,102 +190,121 @@ html[dir="rtl"] [data-tabs-sheet] {
   right: 0;
   left: auto;
 }
+
+/* Desktop Category */
+.category {
+  transition: all 0.3s ease-in-out;
+  height: 32px;
+  max-height: 32px;
+  overflow: visible;
+  position: relative;
+  z-index: 10;
+}
+
+.hide-category {
+  max-height: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Mobile Services */
+header.sticky.mobile\:block {
+  transition: height 0.3s ease;
+}
+
+.services-items {
+  transition: height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.services-items img {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    margin 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  transform-origin: center;
+  will-change: transform, opacity, height;
+}
+
+.header-shrunk .services-items {
+  height: 32px !important;
+  justify-content: center !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+.header-shrunk .services-items img {
+  transform: scale(0) !important;
+  height: 0px !important;
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+
+/* Parallax Slider */
 @media (max-width: 1023px) {
-      .parallax-slider {
-        position: sticky !important;
-        z-index: 1 !important;
-        
-      }
-      .mobile-parallax-wrapper {
-        position: relative !important;
-        z-index: 10 !important;
-        background-color: #f2f3f5 !important;
-        width: 100% !important;
-      }
-    }
-    @media (min-width: 1024px) {
-      .desktop-contents {
-        display: contents !important;
-      }
-    }
+  .parallax-slider {
+    position: sticky !important;
+    top: var(--mob-header-normal, 168px) !important;
+    z-index: 1 !important;
+    transition: top 0.3s ease;
+  }
 
-      body, html { overflow-x: clip; }
+  header.header-shrunk~.parallax-slider {
+    top: var(--mob-header-shrunk, 128px) !important;
+  }
 
-    /* Animations for Desktop Category */
-    .category {
-      transition: margin-top 0.3s ease-in-out, opacity 0.3s ease-in-out;
-      height: 32px;
-      margin-top: 0;
-      overflow: visible !important;
-      position: relative;
-      z-index: 10;
-    }
-    .hide-category {
-      margin-top: -32px !important;
-      opacity: 0 !important;
-      pointer-events: none !important;
-    }
-    
-    /* Animations for Mobile Services */
-    header.sticky.mobile\:block {
-      transition: height 0.3s ease;
-    }
-    .services-items {
-      transition: height 0.3s ease, padding 0.3s ease;
-    }
-    .services-items img {
-      transition: transform 0.3s ease, opacity 0.2s ease, margin 0.3s ease, height 0.3s ease;
-      height: 40px; 
-      width: 40px;
-      object-fit: contain;
-      transform-origin: center;
-    }
-    .header-shrunk .services-items {
-      height: 32px !important;
-      justify-content: center !important;
-      padding-top: 2px !important;
-      padding-bottom: 2px !important;
-    }
-    .header-shrunk .services-items img {
-      transform: scale(0) !important;
-      height: 0px !important;
-      opacity: 0 !important;
-      margin: 0 !important;
-    }
+  .mobile-parallax-wrapper {
+    position: relative !important;
+    z-index: 10 !important;
+    background-color: #fff !important;
+    width: 100% !important;
+  }
+}
 
-    /* Parallax Slider */
-    @media (max-width: 1023px) {
-      .parallax-slider {
-        position: sticky !important;
-        top: var(--mob-header-normal, 168px) !important;
-        z-index: 1 !important;
-        transition: top 0.3s ease;
-      }
-      header.header-shrunk ~ .parallax-slider {
-        top: var(--mob-header-shrunk, 128px) !important;
-      }
-      .mobile-parallax-wrapper {
-        position: relative !important;
-        z-index: 10 !important;
-        background-color: #f2f3f5 !important;
-        width: 100% !important;
-      }
-    }
-    /* Mobile slider height fix */
-    @media (max-width: 1023px) {
-      .parallax-slider .swiper-slide img {
-        height: 180px !important;
-        width: 100% !important;
-        object-fit: cover !important; 
-      }
-      .parallax-slider .swiper-slide {
-        height: 180px !important;
-      }
-      .parallax-slider .swiper-wrapper {
-        height: 180px !important;
-      }
-      .parallax-slider {
-        height: 180px !important;
-      }
-    }
+/* Desktop slider - remove any gaps */
+@media (min-width: 1024px) {
+  .parallax-slider {
+    margin-top: 0 !important;
+    position: relative !important;
+  }
+}
 
+/* Mobile slider height fix */
+@media (max-width: 1023px) {
+  .parallax-slider {
+    height: 180px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .parallax-slider .swiper {
+    height: 100% !important;
+    border-radius: 0.5rem;
+  }
+
+  .parallax-slider .swiper-slide {
+    height: 100% !important;
+  }
+
+  .parallax-slider .swiper-slide img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .desktop-contents {
+    display: contents !important;
+  }
+}
+
+body,
+html {
+  overflow-x: clip;
+}
