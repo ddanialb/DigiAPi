@@ -10,6 +10,7 @@
     "tailwind": "npx @tailwindcss/cli -i ./src/css/main.css -o ./src/css/output.css --watch"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.1.18",
     "vite": "^7.2.4"
   },
