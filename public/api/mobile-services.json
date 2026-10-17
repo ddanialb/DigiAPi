@@ -1,0 +1,344 @@
+{
+  "status": 200,
+  "message": null,
+  "data": {
+    "active_pillars": [
+      {
+        "id": 9,
+        "name": "units",
+        "title": "سرویس‌ها",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/4f1a58293164d31b1a3cf1ef41f6ba4ba4fa4087_1739791745.png?x-oss-process=image/resize,w_300/quality,q_90"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": false,
+        "focused_image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/d5c8b285a3bd7f5b6ce4beafb0edf2422e01eab6_1743838533.png?x-oss-process=image/resize,w_300/quality,q_90"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "is_webview": true,
+        "web_url": "https://www.digikala.com/superapp/units/",
+        "text_color": "#000",
+        "focused_text_color": "#fff",
+        "background_color": "#333333",
+        "pages_header_state": {
+          "/": "full",
+          "/superapp/units/": "full",
+          "/wealth/landing/digital-gold/": "full"
+        },
+        "wrapper_background_color": "[[\"91086dd769561f316a108fb221459887c0495318_1780296491\",10001,375,164,\"png\",[3],[]]]",
+        "wrapper_background_image": {
+          "url": [
+            "[[\"91086dd769561f316a108fb221459887c0495318_1780296491\",10001,375,164,\"png\",[3],[]]]"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        }
+      },
+      {
+        "id": 3,
+        "name": "digikala",
+        "title": "دیجی‌کالا",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/a0d63d0f97e2d776150f65a5ca5aa32b36c8c69c_1779804168.png?x-oss-process=image/resize,w_300/quality,q_90"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": false,
+        "is_webview": false,
+        "web_url": "https://www.digikala.com",
+        "text_color": "#000",
+        "focused_text_color": "#ffffff",
+        "background_color": "#E40138",
+        "pages_header_state": {
+          "/": "full",
+          "/main/": "compact",
+          "/brand/*": "compact",
+          "/search/*": "compact",
+          "/categories/*": "compact",
+          "/product-list/*": "compact",
+          "/promotion-page/": "compact",
+          "/superapp/units/": "full",
+          "/landing/black-friday/": "full",
+          "/personalized-category/": "compact",
+          "/promotion-search/personalized/": "compact"
+        },
+        "wrapper_background_color": "#FAFAFA"
+      },
+      {
+        "id": 2,
+        "name": "jet",
+        "title": "سوپرمارکت",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-pillar/f8cd2415a4af444886bf8218a11fcb542069c46f_1786273041.png"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": true,
+        "focused_image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-pillar/f8cd2415a4af444886bf8218a11fcb542069c46f_1786273044.png"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "is_webview": true,
+        "web_url": "https://api.digikala.com/super-app/v1/sso/jet/?redirect_url=%2F%3Futm_source%3Ddigikala-superweb%26sa_user%3Dtrue",
+        "text_color": "#000",
+        "focused_text_color": "#ffffff",
+        "background_color": "#FF5E1F",
+        "pages_header_state": {
+          "/": "full",
+          "/v2": "compact",
+          "/shop": "compact",
+          "/sa-sso": "full",
+          "/sw-sso": "full",
+          "/v4/shop": "compact",
+          "/v4/shop/": "compact",
+          "/search/?q": "compact",
+          "/landings/*": "compact",
+          "/#out-of-range": "compact",
+          "/vendors-list/": "compact",
+          "/shop/category/": "compact",
+          "/products/custom": "compact",
+          "v1/dynamic-pages/": "compact",
+          "/?MID=out-of-range": "compact"
+        },
+        "wrapper_background_color": "#FAFAFA",
+        "badge_text": "۴۵ دقیقه‌ای",
+        "badge_text_color": "#FFFFFF",
+        "badge_background_color": "#EB3559"
+      },
+      {
+        "id": 10,
+        "name": "gold",
+        "title": "طلا و نقره",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/3c83e0f76591aa2efa42e33448c7cab59a1208cb_1779805075.png?x-oss-process=image/resize,w_300/quality,q_90"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": true,
+        "is_webview": true,
+        "web_url": "https://www.digikala.com/wealth/my-assets/?utm_source=digikala-superweb",
+        "text_color": "#000",
+        "focused_text_color": "#fff",
+        "background_color": "#027275",
+        "pages_header_state": {
+          "/wealth/order/": "full",
+          "/wealth/landing/": "full",
+          "/wealth/profile/": "full",
+          "/wealth/my-assets/": "full",
+          "/wealth/landing/digital-gold": "full",
+          "/wealth/landing/digital-gold/": "full",
+          "/wealth/landing/digital-silver/": "full"
+        },
+        "wrapper_background_color": "#FAFAFA",
+        "badge_text": "کف کارمزد",
+        "badge_text_color": "#FFFFFF",
+        "badge_background_color": "#EB3559"
+      },
+      {
+        "id": 26,
+        "name": "bazaar",
+        "title": "بازار",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/92c304ec6be02a73bd390b256d3fe95211922f0f_1785438895.gif?x-oss-process=image/resize,w_300"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": false,
+        "focused_image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/92c304ec6be02a73bd390b256d3fe95211922f0f_1785438897.gif?x-oss-process=image/resize,w_300"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "is_webview": true,
+        "web_url": "https://api.digikala.com/super-app/v1/sso/bazaar/?redirect_url=%2Faccounts%2Fapi%2Fv1%2Fsuperapp%2Fweb%2Fauth%2F%3Fredirect_url%3Dhttps%253A%252F%252Fbazaar.digify.shop%252F%253Fsa_user%253Dtrue",
+        "text_color": "#000",
+        "focused_text_color": "#ffffff",
+        "background_color": "#783FF3",
+        "pages_header_state": {
+          "/": "full",
+          "/plp/": "compact",
+          "/search/": "compact",
+          "/stores/": "compact",
+          "/videos/": "compact"
+        },
+        "wrapper_background_color": "#FAFAFA"
+      },
+      {
+        "id": 29,
+        "name": "dkstyle",
+        "title": "استایل",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/d556c0c053d0b1ddd8e3bedc0994da0994a06da8_1782388353.png?x-oss-process=image/resize,w_300/quality,q_90"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": false,
+        "is_webview": true,
+        "web_url": "https://www.digistyle.com/?utm_source=digikala-superweb",
+        "text_color": "#000",
+        "focused_text_color": "#ffffff",
+        "background_color": "#0A0A0A",
+        "pages_header_state": {
+          "/": "full",
+          "/brand/*": "compact",
+          "/search/": "compact",
+          "/profile/": "compact",
+          "/category/*": "compact",
+          "/promotion/*": "compact",
+          "/categories/*": "compact"
+        },
+        "wrapper_background_color": "#FAFAFA"
+      },
+      {
+        "id": 22,
+        "name": "fintech",
+        "title": "اعتبار خرید",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/7ae7902fbc209de7d80e79e1e465bf9f8840aec0_1763738479.png?x-oss-process=image/resize,w_300/quality,q_90"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": false,
+        "is_webview": true,
+        "web_url": "https://api.digikala.com/super-app/v1/sso/fintech/?redirect_url=%2F%3Futm_source%3Ddigikala-superweb",
+        "text_color": "#000",
+        "focused_text_color": "#fff",
+        "background_color": "#1159fc",
+        "pages_header_state": {
+          "/": "full",
+          "/auth/": "full",
+          "/card/": "compact",
+          "/home/": "full"
+        },
+        "wrapper_background_color": "#FAFAFA"
+      },
+      {
+        "id": 23,
+        "name": "fidiboArt",
+        "title": "گیشه",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/d94e567e7af868dfed41df4b8928f8a33c2bb8db_1781371792.png?x-oss-process=image/resize,w_300/quality,q_90"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": false,
+        "is_webview": true,
+        "web_url": "https://api.digikala.com/super-app/v1/sso/fidiboArt/?redirect_url=%2F%3Fsa_user%3Dtrue",
+        "text_color": "#424242",
+        "focused_text_color": "#ffffff",
+        "background_color": "#744404",
+        "pages_header_state": {
+          "/": "full",
+          "/ticket/": "full",
+          "/ticket#settings/": "full"
+        },
+        "wrapper_background_color": "#FAFAFA"
+      },
+      {
+        "id": 7,
+        "name": "pharmacy",
+        "title": "دارو",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/05db6acfba2c6d78f941346de37c5c3293affbb4_1779805118.png?x-oss-process=image/resize,w_300/quality,q_90"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": false,
+        "is_webview": true,
+        "web_url": "https://pharmacy.digikala.com/?utm_source=digikala-superweb&sa_user=true",
+        "text_color": "#000",
+        "focused_text_color": "#fff",
+        "background_color": "#008299",
+        "pages_header_state": {
+          "/": "full",
+          "/error-page": "compact",
+          "/notifications": "compact",
+          "/otc/category/*": "compact"
+        },
+        "wrapper_background_color": "#FAFAFA"
+      },
+      {
+        "id": 4,
+        "name": "supermarket",
+        "title": "هایپرمارکت",
+        "image": {
+          "url": [
+            "https://dkstatics-public.digikala.com/superapp-file/e2812cfdd41b5dc2ff449006154ba3f938d82644_1779805098.png?x-oss-process=image/resize,w_300/quality,q_90"
+          ],
+          "storage_ids": [],
+          "thumbnail_url": null,
+          "temporary_id": null,
+          "webp_url": null
+        },
+        "badge": false,
+        "is_webview": true,
+        "web_url": "https://api.digikala.com/super-app/v1/sso/supermarket/?redirect_url=%2F%3Futm_source%3Ddigikala-superweb",
+        "text_color": "#424242",
+        "focused_text_color": "#ffffff",
+        "background_color": "#029A49",
+        "pages_header_state": {
+          "/supermarket/": "full",
+          "/supermarket/product/*": "full",
+          "/supermarket/categories/": "compact",
+          "/supermarket/checkout/thank-you/": "full"
+        },
+        "wrapper_background_color": "#FAFAFA"
+      }
+    ],
+    "default_pillar_tab": "digikala"
+  }
+}

@@ -1,0 +1,65 @@
+
+@font-face {
+  font-family: "Digikala";
+  src: url('/src/fonts/digikala-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+html, body {
+  font-family: "Digikala", sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+}
+input, button, select, textarea { font-family: inherit; }
+
+:root {
+  --dk-h3: 18px;
+  --dk-h4: 16px;
+  --dk-h5: 14px;
+  --dk-subtitle: 13px;
+  --dk-body1: 12px;
+  --dk-body2: 11px;
+  --dk-caption: 10px;
+}
+@media (min-width: 1024px) {
+  :root { --dk-h3: 21px; --dk-h4: 19px; --dk-h5: 16px; --dk-subtitle: 15px; --dk-body1: 14px; --dk-body2: 12px; --dk-caption: 11px; }
+}
+.dk-h3 { font-size: var(--dk-h3); font-weight: 500; line-height: 2.1; }
+.dk-h5 { font-size: var(--dk-h5); font-weight: 700; line-height: 2.1; }
+.dk-button2 { font-size: 12px; font-weight: 700; line-height: 2.17; }
+
+header input, .story-wrapper a span { font-size: var(--dk-body2); font-weight: 400; line-height: 2.17; }
+header .mobile-service-tab span { font-family: "Digikala", sans-serif; font-weight: 400; }
+.list a span, .list-modal-container a span { font-size: var(--dk-caption); font-weight: 700; line-height: 2.17; }
+.list-modal-services h3 { font-size: var(--dk-h5); font-weight: 700; line-height: 2.1; }
+
+.inc-product-slide p { font-size: var(--dk-body1); font-weight: 700; line-height: 1.8; }
+@media (min-width: 1024px) { .inc-product-slide p { font-weight: 400; } }
+.inc-product-slide .font-number:not(.line-through) { font-weight: 700; }
+.inc-product-slide span.font-number:not(.line-through),
+.amazing-product-slide span.font-number:not(.line-through) { font-size: var(--dk-h4); line-height: 24px; }
+.inc-product-slide .line-through { font-size: var(--dk-body2); font-weight: 400; line-height: 16px; }
+.inc-product-slide div.font-number { font-size: 12px; line-height: 16px; }
+.inc-mobile-countdown span { font-weight: 700; }
+.inc-mobile-more { font-weight: 700; }
+
+.options h3, .options2 h3 { font-size: var(--dk-h5); font-weight: 700; line-height: 2.1; }
+.options h3 + span, .options2 h3 + span { font-size: var(--dk-caption); font-weight: 400; line-height: 2.17; }
+.options > div > a, .options2 > div > a { font-size: 12px; font-weight: 700; line-height: 2.17; }
+[class*="options-mobile-"][class$="-title"] > div > span:first-child { font-size: var(--dk-h5); font-weight: 700; line-height: 2.1; }
+[class*="options-mobile-"][class$="-title"] > a { font-size: 12px; font-weight: 700; line-height: 2.17; }
+:is(.optionsM1,.optionsM2,.optionsM3,.optionsM4,.optionsM5,.optionsM6,.optionsM7,.optionsM8) p { font-size: var(--dk-body1); font-weight: 700; line-height: 1.8; }
+:is(.optionsM1,.optionsM2,.optionsM3,.optionsM4,.optionsM5,.optionsM6,.optionsM7,.optionsM8) .font-number.font-bold { font-size: var(--dk-h4); font-weight: 700; line-height: 24px; }
+:is(.indemand-wrapper,.hot-wrapper,.indemand-mobile-wrapper,.hot-mobile-wrapper) p { font-size: var(--dk-body1); font-weight: 400; line-height: 2.15; }
+:is(.indemand-mobile-wrapper,.hot-mobile-wrapper) .font-number { font-weight: 800; font-size: var(--dk-h5); }
+.chosen-items .font-number.font-bold { font-size: var(--dk-h4); font-weight: 700; line-height: 24px; }
+.chosen-items .font-number.line-through { font-size: var(--dk-body2); font-weight: 400; line-height: 2.17; }
+.chosen-items .font-number.text-white, .amazing-items .font-number { font-size: 12px; font-weight: 700; line-height: 2.17; }
+.blog-items a span { font-size: var(--dk-body2); font-weight: 400; line-height: 2.17; }
+
+a:focus-visible { outline: 2px solid #19bfd3; outline-offset: 3px; }
+
+
+.extra-center .grid > div > p { font-size: var(--dk-h5); font-weight: 700; line-height: 2.1; }
+.extra-center .grid > div > a { font-size: var(--dk-body1); font-weight: 400; line-height: 2.15; }

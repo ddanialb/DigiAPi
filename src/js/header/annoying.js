@@ -271,7 +271,7 @@ async function Annoying() {
             ${res.megaMenu
         .map((category, index) => {
           const colsCount = Math.min(category.columns.length, 4);
-          const panelWidth = `${colsCount * 13.75}rem`; // 13.75rem = w-55
+          const panelWidth = `${colsCount * 13.75}rem`;                   
 
           return `
       <div class="pain group w-auto">

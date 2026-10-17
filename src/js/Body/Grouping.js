@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 
 async function Grouping() {
   try {
-    const data = await fetchAPI("Api.json");
+    const data = await fetchAPI("categories.json");
 
     const categoriesWidget = data.data.widgets.find(widget => widget.type === "main_categories_grid");
 
@@ -24,7 +24,7 @@ async function Grouping() {
       const second = categories[i + 1];
 
       grouping += `
-        <div class="swiper-slide !w-[120px]">
+        <div class="swiper-slide !w-[130px]">
           ${first
           ? `
             <div class="flex flex-col justify-between items-center w-full h-[200px] cursor-pointer">
@@ -54,7 +54,7 @@ async function Grouping() {
 
     document.querySelector(".grouping-wrapper").innerHTML = grouping;
 
-    // Mobile version
+
     let groupingMobile = "";
     for (let i = 0; i < categories.length; i += 2) {
       const first = categories[i];
@@ -97,15 +97,43 @@ async function Grouping() {
     console.error("Error loading grouping:", error);
   }
 
-  new Swiper(".grouping-swiper", {
+
+  const groupingSwiper = new Swiper(".grouping-swiper", {
     modules: [Navigation],
-    slidesPerView: 7.5,
-    spaceBetween: 60,
+    slidesPerView: "auto",
+    spaceBetween: 0,
+    watchOverflow: true,
+    freeMode: false,
     navigation: {
       nextEl: ".grouping-next",
       prevEl: ".grouping-prev",
     },
   });
+
+  function syncGrouping(instance) {
+    const wrapper = document.querySelector(".grouping-wrapper");
+    const root = document.querySelector(".grouping-desktop");
+    if (!wrapper) return;
+    const width = instance.slidesSizesGrid.reduce((sum, size) => sum + size, 0)
+      + instance.params.spaceBetween * (instance.slides.length - 1);
+
+
+    const fits = width <= instance.width + 1;
+    const wasStatic = wrapper.classList.contains("grouping-static");
+    wrapper.classList.toggle("grouping-static", fits);
+    if (root) root.classList.toggle("grouping-static", fits);
+    instance.allowTouchMove = !fits;
+    if (wasStatic !== fits) instance.update();
+
+    if (fits) instance.setTranslate(0);
+
+
+    instance.params.centeredSlides = false;
+  }
+
+  syncGrouping(groupingSwiper);
+  groupingSwiper.on("update resize observerUpdate", () => syncGrouping(groupingSwiper));
+  window.addEventListener("resize", () => syncGrouping(groupingSwiper));
 }
 
 export default Grouping;

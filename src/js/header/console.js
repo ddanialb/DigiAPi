@@ -10,19 +10,19 @@ function Search() {
     close.classList.add("!block");
   });
 
-  // Close on category click
+
   category.addEventListener("click", function () {
     history.classList.remove("!flex");
     close.classList.remove("!block");
   });
 
-  // Close on background click
+
   close.addEventListener("click", function () {
     close.classList.remove("!block");
     history.classList.remove("!flex");
   });
 
-  // Close when clicking outside
+
   document.addEventListener("click", function (e) {
     const isClickInsideHistory = history.contains(e.target);
     const isClickInsideSearchbar = searchbar.contains(e.target);
@@ -33,7 +33,7 @@ function Search() {
     }
   });
 
-  // Prevent closing when clicking inside history
+
   history.addEventListener("click", function (e) {
     e.stopPropagation();
   });

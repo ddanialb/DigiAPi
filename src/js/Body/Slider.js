@@ -1,4 +1,4 @@
-import { fetchAPI } from "../api.js";
+import { fetchAPI, digiUrl } from "../api.js";
 import Swiper from "swiper";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
@@ -9,7 +9,7 @@ import "swiper/css/autoplay";
 
 async function Slider() {
   try {
-    const data = await fetchAPI("Api.json");
+    const data = await fetchAPI("slider.json");
 
     const sliderSection = data.data.widgets.find(item => item.type === 'full_slider');
 
@@ -19,10 +19,10 @@ async function Slider() {
     }
 
     const slides = sliderSection.data.map((item) => {
-      const url = `https://www.digikala.com${item.url.uri}`;
+      const url = digiUrl(item.url);
       return `
         <div class="swiper-slide">
-          <a href="${url}" target="_blank" class="block w-full h-full">
+          <a href="${url}" target="_blank" rel="noopener noreferrer" class="block w-full h-full">
             <img
               src="${item.image}"
               alt="${item.title}"
@@ -42,6 +42,7 @@ async function Slider() {
       slidesPerView: 1,
       spaceBetween: 8,
       loop: true,
+      allowTouchMove: true,
       speed: 800,
       pagination: {
         el: ".swiper-pagination",
@@ -57,12 +58,14 @@ async function Slider() {
       },
       breakpoints: {
         0: {
+          navigation: { enabled: false },
           slidesPerView: 1.1,
           centeredSlides: false,
           spaceBetween: 2,
           speed: 500,
         },
         1024: {
+          navigation: { enabled: true },
           slidesPerView: 1,
           centeredSlides: false,
           spaceBetween: 0,
@@ -75,6 +78,5 @@ async function Slider() {
   }
 }
 
-Slider();
 
 export default Slider;

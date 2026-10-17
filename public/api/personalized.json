@@ -1,0 +1,2615 @@
+{
+ "status": 200,
+ "data": {
+  "categories": [
+   {
+    "title": "ویتامین‌ها و مواد معدنی",
+    "description": "بر اساس سلیقه شما",
+    "url": {
+     "base": null,
+     "uri": "https://www.digikala.com/personalized-category/vitamins/"
+    },
+    "products": [
+     {
+      "id": 9952752,
+      "title_fa": "قرص اکوفاین یوروویتال بسته 60 عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-9952752/قرص-اکوفاین-یوروویتال-بسته-60-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/5233d3f6cfeca2904e6f006bbcc18aeff43ca289_1669625068.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1900000,
+        "rrp_price": 16632000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 89,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 17428425,
+      "title_fa": "ساشه انرژی سان یوروویتال بسته 30 عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-17428425/ساشه-انرژی-سان-یوروویتال-بسته-30-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/8f57954e5662718538843cddec0d2d23550036bc_1731856095.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1420000,
+        "rrp_price": 8800000,
+        "order_limit": 9,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 84,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 15338501,
+      "title_fa": "قرص زینک پلاس پابا یوروویتال بسته 60 عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-15338501/قرص-زینک-پلاس-پابا-یوروویتال-بسته-60-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/58fad2977c290c0914aeb1f1ece4c51183296e42_1714646605.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2800000,
+        "rrp_price": 11088000,
+        "order_limit": 200,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 75,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 7158804,
+      "title_fa": "قرص ویتامین D3-1000 واحدی  بسته 60 عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-7158804/قرص-ویتامین-D3-1000-واحدی-بسته-60-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/c64720f4446aa94b873dab4ae35091bc3f0fcc22_1637680139.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1650000,
+        "rrp_price": 5720000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 71,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 19184461,
+      "title_fa": "کپسول منیزیم پلاس د3 و کا2 یوروویتال بسته 60 عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-19184461/کپسول-منیزیم-پلاس-د3-و-کا2-یوروویتال-بسته-60-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/51ad7a81266b87e2327121fca5ca06961c45f8a9_1749458518.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 5430000,
+        "rrp_price": 15840000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 66,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 16408975,
+      "title_fa": "کپسول مولتی ویتال فور هر بالای 50 سال یوروویتال بسته 30 عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-16408975/کپسول-مولتی-ویتال-فور-هر-بالای-50-سال-یوروویتال-بسته-30-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/3ffd840bc476950b934cd5d4fec18e6461a0c3eb_1723623967.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3200000,
+        "rrp_price": 8800000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 64,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 17778328,
+      "title_fa": "کپسول روغن ماهی امگا 3 فاقد جیوه فرمولیتد ساینسز بسته 30 عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-17778328/کپسول-روغن-ماهی-امگا-3-فاقد-جیوه-فرمولیتد-ساینسز-بسته-30-عدد"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/6e2658742db3caccf87fe05e351a0280a2fbeb4e_1734811068.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3577700,
+        "rrp_price": 7592000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 53,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 14380366,
+      "title_fa": "کپسول ویتامین ای 400 د3 1000 یوروویتال بسته 60 عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-14380366/کپسول-ویتامین-ای-400-د3-1000-یوروویتال-بسته-60-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/ec93abf55e3a70d862d113874638c3a13c85a706_1707556376.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3800000,
+        "rrp_price": 7480000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 49,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 3549737,
+      "title_fa": "کپسول فرودین هولیستیکا بسته 32 عددی ",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-3549737/کپسول-فرودین-هولیستیکا-بسته-32-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/9a50de988e334badbc09fdfdc365e4cb35aa290d_1603007772.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2950000,
+        "rrp_price": 4397000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 33,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "title": "گوشی موبایل",
+    "description": "بر اساس سلیقه شما",
+    "url": {
+     "base": null,
+     "uri": "https://www.digikala.com/personalized-category/mobile-phone/"
+    },
+    "products": [
+     {
+      "id": 21190850,
+      "title_fa": "گوشی موبایل شیائومی مدل Redmi Note 15 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+      "title_en": "Xiaomi Redmi Note 15 4G Dual SIM Storage 256GB and RAM 8GB Mobile Phone",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-21190850/گوشی-موبایل-شیائومی-مدل-Redmi-Note-15-4G-دو-سیم-کارت-ظرفیت-2"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/8f4c60af446ea82cd1ef27e1f182c94afaf0a990_1771749697.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 890429000,
+        "rrp_price": 900010000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 1,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 17580036,
+      "title_fa": "گوشی موبایل شیائومی مدل Redmi Note 14 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+      "title_en": "Xiaomi Redmi Note 14 4G Dual SIM Storage 256GB And RAM 8GB Mobile Phone",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-17580036/گوشی-موبایل-شیائومی-مدل-Redmi-Note-14-4G-دو-سیم-کارت-ظرفیت-2"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/c0a7ce006d11c222bce16bd3cdd8d79aeb6689bc_1738134271.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 870000000,
+        "rrp_price": 870000000,
+        "order_limit": 2,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "marketable_stock": 3,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 17986248,
+      "title_fa": "گوشی موبایل شیائومی مدل Poco X7 Pro دو سیم کارت ظرفیت 512 گیگابایت و رم 12 گیگابایت - گلوبال",
+      "title_en": "Xiaomi Poco X7 Pro Dual SIM Storage 512GB And RAM 12GB Mobile Phone - Global",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-17986248/گوشی-موبایل-شیائومی-مدل-Poco-X7-Pro-دو-سیم-کارت-ظرفیت-512-گی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/6144c3fdde10110e4312420db31e07f42e2cfc3a_1738146333.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1495000000,
+        "rrp_price": 1495000000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "marketable_stock": 2,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 20481188,
+      "title_fa": "گوشی موبایل اپل مدل iPhone 17 Pro Max ZAA تک سیم کارت + eSim ظرفیت 256 گیگابایت و رم 12 گیگابایت - نات اکتیو ",
+      "title_en": "Apple iPhone 17 Pro Max ZAA Single SIM + eSim Storage 256GB And RAM 12GB Mobile Phone - Not Activated ",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-20481188/گوشی-موبایل-اپل-مدل-iPhone-17-Pro-Max-ZAA-تک-سیم-کارت-+-eSim"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/ec57ce03f2a92834058f502174b1a2aeffc9a580_1759666637.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 5199990000,
+        "rrp_price": 5199990000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "marketable_stock": 2,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 20135132,
+      "title_fa": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
+      "title_en": "Samsung Galaxy S25 FE Dual SIM Storage 256GB And 8GB Mobile Phone - Vietnam",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-20135132/گوشی-موبایل-سامسونگ-مدل-Galaxy-S25-FE-دو-سیم-کارت-ظرفیت-256-"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/55582a9ac4add1b88050b458e7d490564b3ac4b6_1759667022.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2165000000,
+        "rrp_price": 2165000000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "marketable_stock": 1,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22469143,
+      "title_fa": "گوشی موبایل ارد مدل F200 دو سیم کارت",
+      "title_en": "Orod F200 Dual SIM Mobile Phone",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22469143/گوشی-موبایل-ارد-مدل-F200-دو-سیم-کارت"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/182fa7f3b8393a410dfba37175e5b827876de494_1786281695.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 42400000,
+        "rrp_price": 42400000,
+        "order_limit": 4,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 20490694,
+      "title_fa": "گوشی موبایل سامسونگ مدل Galaxy A17 4G دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - ویتنام",
+      "title_en": "Samsung Galaxy A17 4G Dual SIM 128GB Storage And 4GB Ram Mobile Phone - Vietnam",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-20490694/گوشی-موبایل-سامسونگ-مدل-Galaxy-A17-4G-دو-سیم-کارت-ظرفیت-128-"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/874aae18f993ad077c32ebd9b5948797bcdde9b2_1765798798.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 578000000,
+        "rrp_price": 578000000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "marketable_stock": 2,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 20565427,
+      "title_fa": "گوشی موبایل موتورولا مدل Edge 60 Fusion دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت",
+      "title_en": "Motorola Edge 60 Fusion Dual SIM Storage 256GB And RAM 12GB Mobile Phone",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-20565427/گوشی-موبایل-موتورولا-مدل-Edge-60-Fusion-دو-سیم-کارت-ظرفیت-25"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/3b15e1f3d948a5b12103a4faf9d3bfe8a3d0a48e_1767796426.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 959990000,
+        "rrp_price": 959990000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 21660239,
+      "title_fa": "گوشی موبایل سامسونگ مدل Galaxy A57 دو سیم‌کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
+      "title_en": "Samsung Galaxy A57 Dual SIM Storage 256GB And RAM 8GB Mobile Phone  - Vietnam",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-21660239/گوشی-موبایل-سامسونگ-مدل-Galaxy-A57-دو-سیم-کارت-ظرفیت-256-گیگ"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/3784ab9b894f5dfdc10d64cd3704e532d72b0f0e_1790687841.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1459990000,
+        "rrp_price": 1459990000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "title": "هدفون، هدست و هندزفری",
+    "description": "بر اساس سلیقه شما",
+    "url": {
+     "base": null,
+     "uri": "https://www.digikala.com/personalized-category/headphone/"
+    },
+    "products": [
+     {
+      "id": 22649427,
+      "title_fa": "هدفون بلوتوثی وونک مدل 4",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22649427/هدفون-بلوتوثی-وونک-مدل-4"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/0eedfb6d505bef9dfc8e0169b3bc1914a80aeba7_1788337117.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 19498900,
+        "rrp_price": 200000000,
+        "order_limit": 5,
+        "is_incredible": true,
+        "is_promotion": false,
+        "discount_percent": 90,
+        "bnpl_active": false,
+        "timer": "692",
+        "badge": {
+         "title": "شگفت‌انگیز سفارشی",
+         "color": "#E6123D",
+         "icon": "https://dkstatics-public.digikala.com/digikala-admin-landing/b4c75af31c154049f486ff0ea8ab36ec1b5937e7_1667115837.svg"
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": true,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22612466,
+      "title_fa": "هدفون ریولینک مدل DEKO Pro2",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22612466/هدفون-ریولینک-مدل-DEKO-Pro2"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/509aa15cdff73b1c22bd75b9c6a5a50cec7136f7_1787820966.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 18998900,
+        "rrp_price": 190000000,
+        "order_limit": 5,
+        "is_incredible": true,
+        "is_promotion": false,
+        "discount_percent": 90,
+        "bnpl_active": false,
+        "timer": "692",
+        "badge": {
+         "title": "شگفت‌انگیز سفارشی",
+         "color": "#E6123D",
+         "icon": "https://dkstatics-public.digikala.com/digikala-admin-landing/b4c75af31c154049f486ff0ea8ab36ec1b5937e7_1667115837.svg"
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": true,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22917058,
+      "title_fa": "هدفون بلوتوثی موزیک آپولو مدل RAY/21/RO",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22917058/هدفون-بلوتوثی-موزیک-آپولو-مدل-RAY/21/RO"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/18438c2cc0bbf359df1024d0342135410fe29084_1791277938.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 22000000,
+        "rrp_price": 200000000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 89,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 17361639,
+      "title_fa": "هدفون بلوتوثی شیائومی مدل Redmi Buds 6 Play با نویز کنسلینگ میکروفون (ENC)، درگاه شارژ USB Type-C، با قابلیت اتصال به چند دستگاه، دارای تکنولوژی صدای 360، دارای قابلیت شارژ سریع، مقاوم در برابر پاشش آب (IPX4)",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-17361639/هدفون-بلوتوثی-شیائومی-مدل-Redmi-Buds-6-Play-با-نویز-کنسلینگ-"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/136c80ee8c3938e81d5554a95388058fdb399303_1786571886.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 26819000,
+        "rrp_price": 43443000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 38,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 16200986,
+      "title_fa": "هدفون بلوتوثی انکر مدل R50i NC با حذف نویز فعال (ANC)، درگاه شارژ USB Type-C، باتری قابل شارژ تا 45 ساعت، مقاوم در برابر پاشش آب و گرد و غبار",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-16200986/هدفون-بلوتوثی-انکر-مدل-R50i-NC-با-حذف-نویز-فعال-(ANC)،-درگاه"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/f0cc2b8d3d94b3256c2fd82437900fbe7461fc0d_1786571878.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 39489000,
+        "rrp_price": 62877000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 37,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 11801878,
+      "title_fa": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949 بدون قابلیت نویز کنسلینگ، درگاه شارژ USB Type-C، دارای فناوری AI-Enhanced Calls برای کاهش نویز و بهبود مکالمات، مقاوم در برابر رطوبت و عرق",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-11801878/هدفون-بلوتوثی-انکر-مدل-SoundCore-R50i-A3949-بدون-قابلیت-نویز"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/98bb110cefc58dcc0ed96eff8914c2bb3d48d318_1786533653.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 29684000,
+        "rrp_price": 45709000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 35,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 21061064,
+      "title_fa": "هدفون بلوتوثی انکر مدل R60i NC با نویز کنسلینگ فعال Adaptive ANC، درایور 11 میلی‌متری، پشتیبانی از LDAC و Hi-Res Audio، Spatial Audio، مقاوم در برابر آب و عمر باتری 50 ساعت",
+      "title_en": "Anker R60i NC Bluetooth Headphone",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-21061064/هدفون-بلوتوثی-انکر-مدل-R60i-NC-با-نویز-کنسلینگ-فعال-Adaptive"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/637981ee1358330327489f7b3a02e8b6e9582f7b_1786571911.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 58958000,
+        "rrp_price": 83203000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 29,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 20422049,
+      "title_fa": "هدفون بلوتوثی اپل مدل AirPods Pro 3 با نویز کنسلینگ فعال، قابلیت پخش صدای محیطی، عمر باتری 10 ساعت، مقاوم در برابر رطوبت و عرق",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-20422049/هدفون-بلوتوثی-اپل-مدل-AirPods-Pro-3-با-نویز-کنسلینگ-فعال،-قا"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/c260af43bb31e5ca486bcd92f80df4c7b3e7cef4_1786571908.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 640862000,
+        "rrp_price": 730778000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 12,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 17796977,
+      "title_fa": "هدفون بلوتوثی سونی مدل WF-C510",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-17796977/هدفون-بلوتوثی-سونی-مدل-WF-C510"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/c430b68724c4137bd9dade0bed6af6fc1979a2a0_1754238675.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 109000000,
+        "rrp_price": 109000000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "marketable_stock": 1,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "title": "سایر لوازم خودرو",
+    "description": "بر اساس سلیقه شما",
+    "url": {
+     "base": null,
+     "uri": "https://www.digikala.com/personalized-category/in-car-accessories/"
+    },
+    "products": [
+     {
+      "id": 9739658,
+      "title_fa": "کیت نورپردازی داخل خودرو دریم لایت مدل musical",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-9739658/کیت-نورپردازی-داخل-خودرو-دریم-لایت-مدل-musical"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/8ed8229e813af9655ed779df349664a6315a54be_1666852482.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 7578200,
+        "rrp_price": 34500000,
+        "order_limit": 8,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 78,
+        "bnpl_active": false,
+        "sold_percentage": 92,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 2254857,
+      "title_fa": "شماره تلفن مخصوص پارک خودرو مدل GPK",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-2254857/شماره-تلفن-مخصوص-پارک-خودرو-مدل-GPK"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/114593375.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 690000,
+        "rrp_price": 800000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 14,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 4861641,
+      "title_fa": "چراغ زیر پایی خودرو مدل لنتو B",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-4861641/چراغ-زیر-پایی-خودرو-مدل-لنتو-B"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/19f070a7202d9887877c8171cf55bd37cb2382a0_1617953232.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3000000,
+        "rrp_price": 3000000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22349366,
+      "title_fa": "آبگیر آینه جانبی خودرو مدل انعطاف پذیر بسته 2 عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22349366/آبگیر-آینه-جانبی-خودرو-مدل-انعطاف-پذیر-بسته-2-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/50660ea315bbcd9a0a7e71cf94091f6229096f92_1785014245.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2040000,
+        "rrp_price": 2040000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 7594825,
+      "title_fa": "آینه وسط خودرو یزدی مدل درجه دار کد 01",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-7594825/آینه-وسط-خودرو-یزدی-مدل-درجه-دار-کد-01"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/cb6e097fc9640ddc3e57189adfd7f4d4b046400c_1642509478.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 4150000,
+        "rrp_price": 4150000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 13002965,
+      "title_fa": "لامپ ال ای دی خودرو اف اچ دی مدل 26-RD بسته دو عددی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-13002965/لامپ-ال-ای-دی-خودرو-اف-اچ-دی-مدل-26-RD-بسته-دو-عددی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/656f7db5ef746d903c3ba131c5997b657680994c_1697449142.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1891000,
+        "rrp_price": 1891000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 14794542,
+      "title_fa": "چراغ زیر پایی خودرو مدل LED BL",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-14794542/چراغ-زیر-پایی-خودرو-مدل-LED-BL"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/733bb723e44fc351f53a63067ad7294d2e25dcbf_1710173393.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3500000,
+        "rrp_price": 3500000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 14455492,
+      "title_fa": "آچار جک جغجغه ای خودرو مدل JMN 138",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-14455492/آچار-جک-جغجغه-ای-خودرو-مدل-JMN-138"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/69365d999cdfa187270a304276fef52bc1373ad3_1708084869.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3640000,
+        "rrp_price": 3640000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 801655,
+      "title_fa": "چراغ ال وایر لبه دار با ترانس طول سیم 200 سانتیمتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-801655/چراغ-ال-وایر-لبه-دار-با-ترانس-طول-سیم-200-سانتیمتر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/3662881.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2916200,
+        "rrp_price": 2916200,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "title": "کیف و کاور گوشی",
+    "description": "بر اساس سلیقه شما",
+    "url": {
+     "base": null,
+     "uri": "https://www.digikala.com/personalized-category/cell-phone-pouch-cover/"
+    },
+    "products": [
+     {
+      "id": 20934227,
+      "title_fa": "کاور سامورایی مدل SPC مناسب برای گوشی موبایل اپل iPhone 17 Pro Max",
+      "title_en": "Samurai SPC Case For Apple iPhone 17 Pro Max",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-20934227/کاور-سامورایی-مدل-SPC-مناسب-برای-گوشی-موبایل-اپل-iPhone-17-P"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/f5ddd1771191e77b6b206ce4c6b2e00c7b1b831e_1763625447.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 9690000,
+        "rrp_price": 12500000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 22,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 19165244,
+      "title_fa": "کاور قاب نایس مدل PRDESIGN مناسب برای گوشی موبایل داریا Bond",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-19165244/کاور-قاب-نایس-مدل-PRDESIGN-مناسب-برای-گوشی-موبایل-داریا-Bond"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/00dbab73afb504f49b252f32d96aca2904e98977_1746445980.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2550000,
+        "rrp_price": 2550000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 21304319,
+      "title_fa": "کاور مدل مک سیف مناسب برای گوشی اپل iphone 17promax",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-21304319/کاور-مدل-مک-سیف-مناسب-برای-گوشی-اپل-iphone-17promax"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/bb0ca17b6f25fcc5bc2a89461c0245f3f3ec0a51_1769194202.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1990000,
+        "rrp_price": 1990000,
+        "order_limit": 3,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "marketable_stock": 3,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 16286625,
+      "title_fa": "کاور ضد آب مدل D25 مناسب برای گوشی موبایل سایز 7 اینج",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-16286625/کاور-ضد-آب-مدل-D25-مناسب-برای-گوشی-موبایل-سایز-7-اینج"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/00e33823fb4eab790bd9d6e5a93eee1e725f4a9b_1722794250.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3400000,
+        "rrp_price": 3400000,
+        "order_limit": 20,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22032769,
+      "title_fa": "کاور نیلکین مدل Camshield Pro Transparent version مناسب برای گوشی موبایل سامسونگ Galaxy A57",
+      "title_en": "Nillkin Camshield Pro Clear version Camera protective cover case for Samsung Galaxy A57",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22032769/کاور-نیلکین-مدل-Camshield-Pro-Transparent-version-مناسب-برای"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/d41bf9e6d7c37fb83d8348b45e33635d048ab1d4_1781599566.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 23816800,
+        "rrp_price": 23816800,
+        "order_limit": 4,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 7533757,
+      "title_fa": "کاور نیلکین مدل CamShield Pro مناسب برای گوشی موبایل سامسونگ Galaxy S22 Ultra ",
+      "title_en": "Nillkin CamShield Pro cover case for Samsung Galaxy S22 Ultra",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-7533757/کاور-نیلکین-مدل-CamShield-Pro-مناسب-برای-گوشی-موبایل-سامسونگ"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/8b06b47f660b222f8af4e315a13f214b158cd8e3_1641914030.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 25466200,
+        "rrp_price": 25466200,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "marketable_stock": 1,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22439133,
+      "title_fa": "کاور مدل مگسیف رنگی مناسب برای گوشی موبایل شیائومی Redmi Note 14 4G",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22439133/کاور-مدل-مگسیف-رنگی-مناسب-برای-گوشی-موبایل-شیائومی-Redmi-Not"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/f855d493c098726cc18c4ac1d34ab6af0d60394a_1785943176.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 4400000,
+        "rrp_price": 4400000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 21747254,
+      "title_fa": "کاور یانگ کیت مدل Cyberpunk 360° Spin Magnetic Stand Case مناسب برای گوشی موبایل سامسونگ Galaxy S26 Ultra",
+      "title_en": "Youngkit starship magnetic s26 ultra",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-21747254/کاور-یانگ-کیت-مدل-Cyberpunk-360°-Spin-Magnetic-Stand-Case-من"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/d7482a11029d1d4b5961d510a1ab863f66265593_1780765425.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 55499100,
+        "rrp_price": 55499100,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 11523247,
+      "title_fa": "  کاور اودین مدل Space مناسب برای گوشی موبایل شیائومی Mi 11T / Mi 11T Pro",
+      "title_en": "Space model Odin cover suitable for Xiaomi Mi 11T / Mi 11T Pro mobile phone",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-11523247/کاور-اودین-مدل-Space-مناسب-برای-گوشی-موبایل-شیائومی-Mi-11T-/"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/a71152b6a274909f1e53fe3bffdccfd9f5e4dd7f_1685611373.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 4000000,
+        "rrp_price": 4000000,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "title": "کرم آبرسان و مرطوب کننده",
+    "description": "بر اساس سلیقه شما",
+    "url": {
+     "base": null,
+     "uri": "https://www.digikala.com/personalized-category/moisturizing-cream/"
+    },
+    "products": [
+     {
+      "id": 714799,
+      "title_fa": "کرم مرطوب‌کننده و آبرسان دست و صورت لافارر مدل 04 مناسب پوست‌های حساس حجم 75 میلی‌لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-714799/کرم-مرطوب-کننده-و-آبرسان-دست-و-صورت-لافارر-مدل-04-مناسب-پوست"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/a4bd2e20fa0e117ea41ce5d97927da1d8526dee5_1788861809.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 5151000,
+        "rrp_price": 8585000,
+        "order_limit": 10,
+        "is_incredible": true,
+        "is_promotion": false,
+        "discount_percent": 40,
+        "bnpl_active": false,
+        "timer": "58292",
+        "badge": {
+         "title": "پیشنهاد شگفت انگیز",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 20270158,
+      "title_fa": "کرم مرطوب کننده صورت و گردن کلامین مدل collagen bank مناسب انواع پوست حجم 125 میلی لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-20270158/کرم-مرطوب-کننده-صورت-و-گردن-کلامین-مدل-collagen-bank-مناسب-ا"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/e50c784329c3786a59c1e0a0914e43c2695b3aed_1760871822.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 5220000,
+        "rrp_price": 8700000,
+        "order_limit": 10,
+        "is_incredible": true,
+        "is_promotion": false,
+        "discount_percent": 40,
+        "bnpl_active": false,
+        "timer": "144692",
+        "badge": {
+         "title": "پیشنهاد شگفت انگیز",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 12114980,
+      "title_fa": "آبرسان راکوتن مدل پوست خشک حجم 50 میلی‌لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-12114980/آبرسان-راکوتن-مدل-پوست-خشک-حجم-50-میلی-لیتر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/25306aaf6eccb1fdcfe1a299e3d6bce95c08a3dc_1788863193.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3572000,
+        "rrp_price": 5975000,
+        "order_limit": 10,
+        "is_incredible": true,
+        "is_promotion": false,
+        "discount_percent": 40,
+        "bnpl_active": false,
+        "timer": "58309",
+        "badge": {
+         "title": "پیشنهاد شگفت انگیز",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 1518148,
+      "title_fa": "کرم مرطوب‌کننده درمالیفت مدل Hydralift AC Cream مناسب پوست‌های چرب حجم 50 میلی‌لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-1518148/کرم-مرطوب-کننده-درمالیفت-مدل-Hydralift-AC-Cream-مناسب-پوست-ه"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/ac9ad68868977589f9d9c68cb49219e192d40d29_1754835944.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2830000,
+        "rrp_price": 4170000,
+        "order_limit": 6,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 32,
+        "bnpl_active": false,
+        "sold_percentage": 40,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22288225,
+      "title_fa": "کرم آبرسان دست و صورت ویتالیر مدل اوسرین و اوره 10% مناسب برای پوست خشک و خیلی خشک حجم 100 میلی‌لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22288225/کرم-آبرسان-دست-و-صورت-ویتالیر-مدل-اوسرین-و-اوره-10%-مناسب-بر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/9898edaf7064000a32256ed449097237fea7f30e_1784619648.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 4096000,
+        "rrp_price": 5820000,
+        "order_limit": 8,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 30,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 13862382,
+      "title_fa": "اسپری آبرسان صورت و بدن ویتالیر مدل Hydravit مناسب برای انواع پوست حجم 75 میلی لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-13862382/اسپری-آبرسان-صورت-و-بدن-ویتالیر-مدل-Hydravit-مناسب-برای-انوا"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/bbde703b381162c8471c8bcb47bf77553d379045_1754252367.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3047000,
+        "rrp_price": 4210000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 28,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 2411996,
+      "title_fa": "کرم نرم‌کننده ثمین مدل اوسرین و اوره 10درصد حجم 100 میلی‌لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-2411996/کرم-نرم-کننده-ثمین-مدل-اوسرین-و-اوره-10درصد-حجم-100-میلی-لیت"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/2de65aa16d3724b98d45e62efcf50300e46cd13c_1788862311.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 4348000,
+        "rrp_price": 5761000,
+        "order_limit": 6,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 25,
+        "bnpl_active": false,
+        "sold_percentage": 40,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 4545846,
+      "title_fa": "کرم آبرسان راکوتن مدل Prebiotic حجم 50 میلی‌لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-4545846/کرم-آبرسان-راکوتن-مدل-Prebiotic-حجم-50-میلی-لیتر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/d62215d2ed8d71a057f3242923b51465205326af_1754244443.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 3696000,
+        "rrp_price": 3963000,
+        "order_limit": 2,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 7,
+        "bnpl_active": false,
+        "marketable_stock": 2,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 3149571,
+      "title_fa": "کرم مرطوب‌کننده کامان مدل Oil Plus حجم 250 میلی‌لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-3149571/کرم-مرطوب-کننده-کامان-مدل-Oil-Plus-حجم-250-میلی-لیتر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/4e0474996012e310ab1375baacdda317fcd26d65_1788862304.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2419300,
+        "rrp_price": 2419300,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "title": "رنگ",
+    "description": "بر اساس سلیقه شما",
+    "url": {
+     "base": null,
+     "uri": "https://www.digikala.com/personalized-category/color/"
+    },
+    "products": [
+     {
+      "id": 903666,
+      "title_fa": "اسپری رنگ مشکی مات واکو حجم 300 میلی لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-903666/اسپری-رنگ-مشکی-مات-واکو-حجم-300-میلی-لیتر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/4206381.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2500000,
+        "rrp_price": 2500000,
+        "order_limit": 4,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 3039221,
+      "title_fa": "شاپان رزین گل مدل BRW حجم 1000 میلی لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-3039221/شاپان-رزین-گل-مدل-BRW-حجم-1000-میلی-لیتر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/fbdad86cb0d77256e0d56e433f369a48e870200b_1593852569.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2690000,
+        "rrp_price": 2690000,
+        "order_limit": 20,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 5885030,
+      "title_fa": " بتونه همه کاره افرا کد 2022 وزن 500 گرم",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-5885030/بتونه-همه-کاره-افرا-کد-2022-وزن-500-گرم"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/95117d6989ea057a536a0f80cbb6fec9d7788c44_1627318213.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1980000,
+        "rrp_price": 1980000,
+        "order_limit": 55,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 1505981,
+      "title_fa": "اسپری رنگ طوسی واکو مدل 01 حجم 300 میلی لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-1505981/اسپری-رنگ-طوسی-واکو-مدل-01-حجم-300-میلی-لیتر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/9dfc91762c8c0009326d68759e42518be7d92f71_1701034537.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2750000,
+        "rrp_price": 2750000,
+        "order_limit": 6,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 973871,
+      "title_fa": "براق کننده و پولیش واکس چوب سدارکس اورجینال مدل Z حجم 250 میلی لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-973871/براق-کننده-و-پولیش-واکس-چوب-سدارکس-اورجینال-مدل-Z-حجم-250-می"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/4558772.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2840000,
+        "rrp_price": 2840000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 903674,
+      "title_fa": "اسپری رنگ مشکی براق واکو حجم 300 میلی لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-903674/اسپری-رنگ-مشکی-براق-واکو-حجم-300-میلی-لیتر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/4206424.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2430000,
+        "rrp_price": 2430000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 6921127,
+      "title_fa": "مادر رنگ اکریلیک مشکی الوان کد 599 حجم 250 میلی لیتر",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-6921127/مادر-رنگ-اکریلیک-مشکی-الوان-کد-599-حجم-250-میلی-لیتر"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/dc440c8cd2b521a3455a1694e40ad1d7cb080c47_1635883774.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 4500000,
+        "rrp_price": 4500000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 17902190,
+      "title_fa": "رنگ نیم پلاستیک سفید مات مرمرفام کد 203 وزن 12 کیلوگرم",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-17902190/رنگ-نیم-پلاستیک-سفید-مات-مرمرفام-کد-203-وزن-12-کیلوگرم"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/26f3feea12b341106fcff03b63e59ed20be9cb21_1735926126.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 17300000,
+        "rrp_price": 17300000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 8473283,
+      "title_fa": "رنگ لباس مشکی گازر مدل GR وزن 10 گرم",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-8473283/رنگ-لباس-مشکی-گازر-مدل-GR-وزن-10-گرم"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/375bd1231159cb9966c2061b3f9c3aa81b5c57df_1652159683.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1950000,
+        "rrp_price": 1950000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "title": "کتاب رمان و ادبیات داستانی و نمایشی",
+    "description": "بر اساس سلیقه شما",
+    "url": {
+     "base": null,
+     "uri": "https://www.digikala.com/personalized-category/printed-book-of-poetry-and-literature/"
+    },
+    "products": [
+     {
+      "id": 15207430,
+      "title_fa": "کتاب کتابخانه نیمه شب اثر مت هیگ انتشارات هیتا",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-15207430/کتاب-کتابخانه-نیمه-شب-اثر-مت-هیگ-انتشارات-هیتا"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/f726f9fcefef49c6b981eba9e373ef83246ad6e1_1713736216.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2190000,
+        "rrp_price": 11980000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 82,
+        "bnpl_active": false,
+        "sold_percentage": 74,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22905162,
+      "title_fa": "کتاب قلعه مالویل اثر رابرت مرل ترجمه مژگان بهرامی فرد نشر هیتا",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22905162/کتاب-قلعه-مالویل-اثر-رابرت-مرل-ترجمه-مژگان-بهرامی-فرد-نشر-هی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/284100f3a967e716b567612e2f57a4ec3bbe6876_1791191245.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 7990000,
+        "rrp_price": 29980000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 73,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22485094,
+      "title_fa": "کتاب قطار نیمه شب اثر مت هیگ ترجمه پریسا رجوند نشر خرچنگ",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22485094/کتاب-قطار-نیمه-شب-اثر-مت-هیگ-ترجمه-پریسا-رجوند-نشر-خرچنگ"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/4c0380a9d3a87d703f71d59cd2f9b492fd84d10d_1786442237.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 4650000,
+        "rrp_price": 13500000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 66,
+        "bnpl_active": false,
+        "marketable_stock": 1,
+        "sold_percentage": 95,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 22456762,
+      "title_fa": "کتاب شاهزاده سنگدل، پادشاه پلید و ملکه پوشالی اثر هالی بلک انتشارات آذربیان ۳ جلدی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-22456762/کتاب-شاهزاده-سنگدل،-پادشاه-پلید-و-ملکه-پوشالی-اثر-هالی-بلک-ا"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/670bd25e02cae597e9407d6d7a87ba4e226b4679_1786181114.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 15895000,
+        "rrp_price": 46700000,
+        "order_limit": 10,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 66,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 137612,
+      "title_fa": "کتاب بامداد خمار اثر فتانه حاج سید جوادی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-137612/کتاب-بامداد-خمار-اثر-فتانه-حاج-سید-جوادی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/1293730.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 5667000,
+        "rrp_price": 12500000,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": true,
+        "discount_percent": 55,
+        "bnpl_active": false,
+        "badge": {
+         "title": "فروش ویژه",
+         "color": "#E6123D",
+         "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_plus_promotion": false,
+        "is_plus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 2550695,
+      "title_fa": "کتاب چشم هایش اثر بزرگ علوی نشر نگاه",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-2550695/کتاب-چشم-هایش-اثر-بزرگ-علوی-نشر-نگاه"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/119749071.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 4712900,
+        "rrp_price": 4712900,
+        "order_limit": 30,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 21862928,
+      "title_fa": "کتاب بلادونا اثر آدلین گریس ترجمه نرگس رحمانی مطلوب انتشارات آراستگان",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-21862928/کتاب-بلادونا-اثر-آدلین-گریس-ترجمه-نرگس-رحمانی-مطلوب-انتشارات"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/c69dad6158e2d511e65368dd8412c4928f6525da_1779519691.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 5551200,
+        "rrp_price": 5551200,
+        "order_limit": 5,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 37948,
+      "title_fa": "کتاب شب های روشن اثر فیودور داستایفسکی نشر ماهی",
+      "title_en": "",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-37948/کتاب-شب-های-روشن-اثر-فیودور-داستایفسکی-نشر-ماهی"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/15708edb3b23973f5d32b8c6ad4232b461f55e78_1658316575.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 1695500,
+        "rrp_price": 1695500,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "marketable_stock": 1,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     },
+     {
+      "id": 56302,
+      "title_fa": "کتاب موش ها و آدم ها اثر جان استاین بک",
+      "title_en": "کتاب موش ها و آدم ها اثر جان استاین بک",
+      "status": "marketable",
+      "url": {
+       "base": null,
+       "uri": "/product/dkp-56302/کتاب-موش-ها-و-آدم-ها-اثر-جان-استاین-بک"
+      },
+      "images": {
+       "main": {
+        "url": [
+         "https://dkstatics-public.digikala.com/digikala-products/250228.jpg?x-oss-process=image/resize,m_lfit,h_240,w_240/quality,q_80"
+        ],
+        "webp_url": []
+       }
+      },
+      "default_variant": {
+       "price": {
+        "selling_price": 2880000,
+        "rrp_price": 2880000,
+        "order_limit": 8,
+        "is_incredible": false,
+        "is_promotion": false,
+        "discount_percent": 0,
+        "bnpl_active": false,
+        "is_plus_extra_discount": false,
+        "min_order_limit": 1
+       }
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

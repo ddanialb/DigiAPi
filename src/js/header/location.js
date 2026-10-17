@@ -109,5 +109,4 @@ function toggleDivider() {
 toggleDivider();
 locScroll.addEventListener("scroll", toggleDivider);
 
-Location();
 export default Location;

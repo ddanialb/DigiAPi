@@ -1,4 +1,4 @@
-import { fetchAPI } from "../api.js";
+import { fetchAPI, digiUrl } from "../api.js";
 
 import Swiper from "swiper";
 import { Navigation } from "swiper/modules";
@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 async function Story() {
   try {
-    // Fetch from api/story.json
+
     const data = await fetchAPI("story.json");
 
     if (!data.data || !data.data.posts) {
@@ -25,11 +25,11 @@ async function Story() {
 
       return `
         <div class="swiper-slide">
-          <a href="${postUrl}" target="_blank">
+          <a href="${postUrl}" target="_blank" rel="noopener noreferrer">
             <div class="flex flex-col justify-center items-center p-2 gap-2 w-23">
-              <div class="rounded-full overflow-hidden w-22 h-22 bg-linear-to-b from-[#95489c] to-[#c84198] p-0.5">
+              <div class="story-ring rounded-full overflow-hidden w-22 h-22 bg-linear-to-b from-[#95489c] to-[#c84198] p-0.5">
                 <div class="bg-white rounded-full w-full h-full p-1">
-                  <img src="${imageUrl}" alt="${title}" class="rounded-full" />
+                  <img src="${imageUrl}" alt="${title}" class="story-cover rounded-full w-full h-full object-cover" />
                 </div>
               </div>
               <span class="font-Iran text-xs text-[#574a6d] line-clamp-2 text-center w-full">${title}</span>

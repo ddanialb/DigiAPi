@@ -36,5 +36,4 @@ async function MSearch() {
 
 }
 
-MSearch();
 export default MSearch;

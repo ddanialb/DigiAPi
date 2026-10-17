@@ -1,8 +1,8 @@
-import { fetchAPI } from "../api.js";
+import { fetchAPI, digiUrl } from "../api.js";
 
 async function Blog() {
   try {
-    const data = await fetchAPI("Api.json");
+    const data = await fetchAPI("magazine.json");
 
     const magazineWidget = data.data.widgets.find(
       (widget) => widget.type === "magazine_posts"
@@ -12,14 +12,13 @@ async function Blog() {
 
     const news = magazineWidget.data.news;
 
-    // Only show first 4 items
+
     const blogItems = news.slice(0, 4).map((item) => {
-      const itemUrl = item.url?.uri || "#";
-      const fullUrl = itemUrl.startsWith('http') ? itemUrl : `https://www.digikala.com${itemUrl}`;
+      const fullUrl = digiUrl(item.url);
 
       return `
         <div class="flex-col gap-2 rounded-xl overflow-hidden border border-[#eaeaec] desktop:h-75 mobile:h-60 mobile:block desktop:block">
-          <a href="${fullUrl}" target="_blank" class="block">
+          <a href="${fullUrl}" target="_blank" rel="noopener noreferrer" class="block h-full">
             <img src="${item.image}" alt="${item.title}" class="w-full object-cover">
             <div class="px-4 py-2">
               <span class="font-Iran desktop:text-[13px] mobile:text-[13px]">${item.title}</span>

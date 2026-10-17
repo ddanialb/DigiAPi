@@ -1,0 +1,402 @@
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/api/story.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/api/trending.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/db.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/src/img/fixed-button/clock.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/src/img/fixed-button/svgexport-42.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/src/img/fixed-button/truck.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/src/img/menu/magnet.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/css/main.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/css/output.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Ads.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Blog.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Brands.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Grouping.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Hot.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Inc.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Indemand.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/List.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/OptionsM.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Partner.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Slider.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/Story.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Body/amazing.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Mheader/MSearch.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/Mheader/MServices.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/api.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/fixedButton.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/header/annoying.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/header/console.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/header/location.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/header/navbar.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.js', LF will be replaced by CRLF the next time Git touches it
+ .gitignore                                   |    25 [32m+[m[31m-[m
+ api/Api.json                                 | 16670 [31m-------------------------[m
+ api/recommendation.json                      |  8416 [31m-------------[m
+ api/selling-and-sales.json                   |  8282 [31m------------[m
+ api/story.json                               |  2013 [31m---[m
+ api/trending.json                            |  8728 [31m-------------[m
+ db.json                                      | 10352 [31m---------------[m
+ index.html                                   |   934 [32m+[m[31m-[m
+ package-lock.json                            |  1109 [32m+[m[31m-[m
+ package.json                                 |    11 [32m+[m[31m-[m
+ public/api/Api.json                          | 16670 [31m-------------------------[m
+ public/api/recommendation.json               |  8416 [31m-------------[m
+ public/api/selling-and-sales.json            |  8282 [31m------------[m
+ public/api/story.json                        |  2014 [32m+[m[31m--[m
+ public/api/trending.json                     |  8729 [32m+[m[31m------------[m
+ public/db.json                               | 10353 [32m+[m[31m--------------[m
+ public/src/img/Header/Banner.jpg             |   Bin [31m29992[m -> [32m0[m bytes
+ public/src/img/Header/mega/img-1.svg         |     1 [31m-[m
+ public/src/img/Header/mobile/banner.jpg      |   Bin [31m6260[m -> [32m0[m bytes
+ public/src/img/Header/mobile/camera.png      |   Bin [31m989[m -> [32m0[m bytes
+ public/src/img/Header/mobile/recent.svg      |    71 [31m-[m
+ public/src/img/Header/mobile/s-1.png         |   Bin [31m465[m -> [32m0[m bytes
+ public/src/img/Header/mobile/s-2.png         |   Bin [31m4610[m -> [32m0[m bytes
+ public/src/img/Header/mobile/s-3.png         |   Bin [31m15432[m -> [32m0[m bytes
+ public/src/img/Header/mobile/s-4.png         |   Bin [31m43341[m -> [32m0[m bytes
+ public/src/img/Header/mobile/s-5.png         |   Bin [31m11565[m -> [32m0[m bytes
+ public/src/img/Header/mobile/s-6.png         |   Bin [31m80612[m -> [32m0[m bytes
+ public/src/img/Header/mobile/trash.svg       |     2 [31m-[m
+ public/src/img/Header/search-img.gif         |   Bin [31m77925[m -> [32m0[m bytes
+ public/src/img/ads/img-1.jpg                 |   Bin [31m37486[m -> [32m0[m bytes
+ public/src/img/ads/img-2.jpg                 |   Bin [31m28281[m -> [32m0[m bytes
+ public/src/img/ads/img-3.jpg                 |   Bin [31m29094[m -> [32m0[m bytes
+ public/src/img/ads/img-4.jpg                 |   Bin [31m30394[m -> [32m0[m bytes
+ public/src/img/ads/img-5.jpg                 |   Bin [31m21299[m -> [32m0[m bytes
+ public/src/img/ads/img-6.jpg                 |   Bin [31m24239[m -> [32m0[m bytes
+ public/src/img/ads/img-7.jpg                 |   Bin [31m41150[m -> [32m0[m bytes
+ public/src/img/ads/img-8.jpg                 |   Bin [31m29714[m -> [32m0[m bytes
+ public/src/img/amazing/amazing.svg           |    20 [31m-[m
+ public/src/img/amazing/img-1.png             |   Bin [31m80700[m -> [32m0[m bytes
+ public/src/img/amazing/img-2.png             |   Bin [31m67342[m -> [32m0[m bytes
+ public/src/img/amazing/img-3.png             |   Bin [31m173277[m -> [32m0[m bytes
+ public/src/img/amazing/img-4.png             |   Bin [31m77258[m -> [32m0[m bytes
+ public/src/img/amazing/img-5.png             |   Bin [31m40796[m -> [32m0[m bytes
+ public/src/img/amazing/img-6.png             |   Bin [31m119669[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-1.jpg      |   Bin [31m3159[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-10.jpg     |   Bin [31m2616[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-11.jpg     |   Bin [31m3465[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-12.jpg     |   Bin [31m4148[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-13.jpg     |   Bin [31m6195[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-14.jpg     |   Bin [31m4754[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-15.jpg     |   Bin [31m3884[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-16.jpg     |   Bin [31m3904[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-17.jpg     |   Bin [31m2643[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-18.jpg     |   Bin [31m4878[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-19.jpg     |   Bin [31m7652[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-2.jpg      |   Bin [31m8079[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-20.jpg     |   Bin [31m3265[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-3.jpg      |   Bin [31m3412[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-4.jpg      |   Bin [31m7879[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-5.jpg      |   Bin [31m9244[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-6.jpg      |   Bin [31m3103[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-7.jpg      |   Bin [31m8579[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-8.jpg      |   Bin [31m2873[m -> [32m0[m bytes
+ public/src/img/amazing/mobile/img-9.jpg      |   Bin [31m8720[m -> [32m0[m bytes
+ public/src/img/blog/blog1.jpg                |   Bin [31m94037[m -> [32m0[m bytes
+ public/src/img/blog/blog2.jpg                |   Bin [31m215698[m -> [32m0[m bytes
+ public/src/img/blog/blog3.jpg                |   Bin [31m281640[m -> [32m0[m bytes
+ public/src/img/blog/blog4.jpg                |   Bin [31m236300[m -> [32m0[m bytes
+ public/src/img/brands/img-1.png              |   Bin [31m27825[m -> [32m0[m bytes
+ public/src/img/brands/img-10.png             |   Bin [31m4204[m -> [32m0[m bytes
+ public/src/img/brands/img-11.png             |   Bin [31m5879[m -> [32m0[m bytes
+ public/src/img/brands/img-12.png             |   Bin [31m5309[m -> [32m0[m bytes
+ public/src/img/brands/img-13.png             |   Bin [31m3728[m -> [32m0[m bytes
+ public/src/img/brands/img-14.png             |   Bin [31m5101[m -> [32m0[m bytes
+ public/src/img/brands/img-15.png             |   Bin [31m3939[m -> [32m0[m bytes
+ public/src/img/brands/img-16.png             |   Bin [31m1218[m -> [32m0[m bytes
+ public/src/img/brands/img-17.png             |   Bin [31m2601[m -> [32m0[m bytes
+ public/src/img/brands/img-18.png             |   Bin [31m2827[m -> [32m0[m bytes
+ public/src/img/brands/img-19.png             |   Bin [31m2648[m -> [32m0[m bytes
+ public/src/img/brands/img-2.png              |   Bin [31m39342[m -> [32m0[m bytes
+ public/src/img/brands/img-20.png             |   Bin [31m2560[m -> [32m0[m bytes
+ public/src/img/brands/img-21.png             |   Bin [31m3136[m -> [32m0[m bytes
+ public/src/img/brands/img-22.png             |   Bin [31m10882[m -> [32m0[m bytes
+ public/src/img/brands/img-23.png             |   Bin [31m4135[m -> [32m0[m bytes
+ public/src/img/brands/img-3.png              |   Bin [31m43400[m -> [32m0[m bytes
+ public/src/img/brands/img-4.png              |   Bin [31m19443[m -> [32m0[m bytes
+ public/src/img/brands/img-5.png              |   Bin [31m9041[m -> [32m0[m bytes
+ public/src/img/brands/img-6.png              |   Bin [31m17538[m -> [32m0[m bytes
+ public/src/img/brands/img-7.png              |   Bin [31m7204[m -> [32m0[m bytes
+ public/src/img/brands/img-8.png              |   Bin [31m4249[m -> [32m0[m bytes
+ public/src/img/brands/img-9.png              |   Bin [31m2966[m -> [32m0[m bytes
+ public/src/img/category/img-1.png            |   Bin [31m2743[m -> [32m0[m bytes
+ public/src/img/category/img-10.png           |   Bin [31m14372[m -> [32m0[m bytes
+ public/src/img/category/img-2.png            |   Bin [31m4122[m -> [32m0[m bytes
+ public/src/img/category/img-3.png            |   Bin [31m2564[m -> [32m0[m bytes
+ public/src/img/category/img-4.png            |   Bin [31m2020[m -> [32m0[m bytes
+ public/src/img/category/img-5.png            |   Bin [31m2677[m -> [32m0[m bytes
+ public/src/img/category/img-6.png            |   Bin [31m217942[m -> [32m0[m bytes
+ public/src/img/category/img-8.png            |   Bin [31m9762[m -> [32m0[m bytes
+ public/src/img/category/img-9.png            |   Bin [31m2880[m -> [32m0[m bytes
+ public/src/img/category/modal/img-1.png      |   Bin [31m2743[m -> [32m0[m bytes
+ public/src/img/category/modal/img-10.png     |   Bin [31m2420[m -> [32m0[m bytes
+ public/src/img/category/modal/img-11.png     |   Bin [31m12411[m -> [32m0[m bytes
+ public/src/img/category/modal/img-12.png     |   Bin [31m2208[m -> [32m0[m bytes
+ public/src/img/category/modal/img-2.png      |   Bin [31m2020[m -> [32m0[m bytes
+ public/src/img/category/modal/img-3.png      |   Bin [31m2677[m -> [32m0[m bytes
+ public/src/img/category/modal/img-4.png      |   Bin [31m217942[m -> [32m0[m bytes
+ public/src/img/category/modal/img-5.png      |   Bin [31m9762[m -> [32m0[m bytes
+ public/src/img/category/modal/img-6.png      |   Bin [31m2880[m -> [32m0[m bytes
+ public/src/img/category/modal/img-7.png      |   Bin [31m14372[m -> [32m0[m bytes
+ public/src/img/category/modal/img-8.png      |   Bin [31m16829[m -> [32m0[m bytes
+ public/src/img/category/modal/img-9.png      |   Bin [31m2407[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-1.png      |   Bin [31m2090[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-10.png     |   Bin [31m4769[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-2.png      |   Bin [31m2564[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-3.png      |   Bin [31m4459[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-4.png      |   Bin [31m2004[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-5.png      |   Bin [31m5369[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-6.png      |   Bin [31m1383[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-7.png      |   Bin [31m2670[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-8.png      |   Bin [31m4313[m -> [32m0[m bytes
+ public/src/img/category/modal/pic-9.png      |   Bin [31m1998[m -> [32m0[m bytes
+ public/src/img/chosen/img-1.jpg              |   Bin [31m22253[m -> [32m0[m bytes
+ public/src/img/chosen/img-10.jpg             |   Bin [31m16664[m -> [32m0[m bytes
+ public/src/img/chosen/img-11.jpg             |   Bin [31m7568[m -> [32m0[m bytes
+ public/src/img/chosen/img-12.jpg             |   Bin [31m44287[m -> [32m0[m bytes
+ public/src/img/chosen/img-13.jpg             |   Bin [31m41784[m -> [32m0[m bytes
+ public/src/img/chosen/img-14.jpg             |   Bin [31m43820[m -> [32m0[m bytes
+ public/src/img/chosen/img-15.jpg             |   Bin [31m40633[m -> [32m0[m bytes
+ public/src/img/chosen/img-16.jpg             |   Bin [31m39726[m -> [32m0[m bytes
+ public/src/img/chosen/img-17.jpg             |   Bin [31m39576[m -> [32m0[m bytes
+ public/src/img/chosen/img-18.jpg             |   Bin [31m24636[m -> [32m0[m bytes
+ public/src/img/chosen/img-2.jpg              |   Bin [31m10330[m -> [32m0[m bytes
+ public/src/img/chosen/img-3.jpg              |   Bin [31m8312[m -> [32m0[m bytes
+ public/src/img/chosen/img-4.jpg              |   Bin [31m23042[m -> [32m0[m bytes
+ public/src/img/chosen/img-5.jpg              |   Bin [31m24654[m -> [32m0[m bytes
+ public/src/img/chosen/img-6.jpg              |   Bin [31m24628[m -> [32m0[m bytes
+ public/src/img/chosen/img-7.jpg              |   Bin [31m44287[m -> [32m0[m bytes
+ public/src/img/chosen/img-8.jpg              |   Bin [31m43820[m -> [32m0[m bytes
+ public/src/img/chosen/img-9.jpg              |   Bin [31m40633[m -> [32m0[m bytes
+ public/src/img/fixed-button/clock.svg        |     2 [32m+[m[31m-[m
+ public/src/img/fixed-button/svgexport-42.svg |     2 [32m+[m[31m-[m
+ public/src/img/fixed-button/truck.svg        |     2 [32m+[m[31m-[m
+ public/src/img/fixed-button/up.svg           |     1 [31m-[m
+ public/src/img/footer/bale.svg               |     1 [31m-[m
+ public/src/img/footer/placeholder.svg        |     4 [31m-[m
+ public/src/img/hot/img-1.jpg                 |   Bin [31m30932[m -> [32m0[m bytes
+ public/src/img/hot/img-10.jpg                |   Bin [31m14204[m -> [32m0[m bytes
+ public/src/img/hot/img-11.jpg                |   Bin [31m29346[m -> [32m0[m bytes
+ public/src/img/hot/img-12.jpg                |   Bin [31m6861[m -> [32m0[m bytes
+ public/src/img/hot/img-13.jpg                |   Bin [31m23140[m -> [32m0[m bytes
+ public/src/img/hot/img-14.jpg                |   Bin [31m41958[m -> [32m0[m bytes
+ public/src/img/hot/img-15.jpg                |   Bin [31m18233[m -> [32m0[m bytes
+ public/src/img/hot/img-16.jpg                |   Bin [31m11984[m -> [32m0[m bytes
+ public/src/img/hot/img-17.jpg                |   Bin [31m8512[m -> [32m0[m bytes
+ public/src/img/hot/img-18.jpg                |   Bin [31m21679[m -> [32m0[m bytes
+ public/src/img/hot/img-2.jpg                 |   Bin [31m20320[m -> [32m0[m bytes
+ public/src/img/hot/img-3.jpg                 |   Bin [31m18076[m -> [32m0[m bytes
+ public/src/img/hot/img-4.jpg                 |   Bin [31m28404[m -> [32m0[m bytes
+ public/src/img/hot/img-5.jpg                 |   Bin [31m9409[m -> [32m0[m bytes
+ public/src/img/hot/img-6.jpg                 |   Bin [31m14970[m -> [32m0[m bytes
+ public/src/img/hot/img-7.jpg                 |   Bin [31m24014[m -> [32m0[m bytes
+ public/src/img/hot/img-8.jpg                 |   Bin [31m36278[m -> [32m0[m bytes
+ public/src/img/hot/img-9.jpg                 |   Bin [31m51453[m -> [32m0[m bytes
+ public/src/img/inc/img-1.jpg                 |   Bin [31m6512[m -> [32m0[m bytes
+ public/src/img/inc/img-10.jpg                |   Bin [31m12871[m -> [32m0[m bytes
+ public/src/img/inc/img-11.jpg                |   Bin [31m7368[m -> [32m0[m bytes
+ public/src/img/inc/img-12.jpg                |   Bin [31m19764[m -> [32m0[m bytes
+ public/src/img/inc/img-2.jpg                 |   Bin [31m8948[m -> [32m0[m bytes
+ public/src/img/inc/img-3.jpg                 |   Bin [31m10237[m -> [32m0[m bytes
+ public/src/img/inc/img-4.jpg                 |   Bin [31m17162[m -> [32m0[m bytes
+ public/src/img/inc/img-5.jpg                 |   Bin [31m10211[m -> [32m0[m bytes
+ public/src/img/inc/img-6.jpg                 |   Bin [31m15710[m -> [32m0[m bytes
+ public/src/img/inc/img-7.jpg                 |   Bin [31m10772[m -> [32m0[m bytes
+ public/src/img/inc/img-8.jpg                 |   Bin [31m5642[m -> [32m0[m bytes
+ public/src/img/inc/img-9.jpg                 |   Bin [31m10993[m -> [32m0[m bytes
+ public/src/img/indemand/img-1.jpg            |   Bin [31m10245[m -> [32m0[m bytes
+ public/src/img/indemand/img-10.jpg           |   Bin [31m18354[m -> [32m0[m bytes
+ public/src/img/indemand/img-11.jpg           |   Bin [31m8154[m -> [32m0[m bytes
+ public/src/img/indemand/img-12.jpg           |   Bin [31m14483[m -> [32m0[m bytes
+ public/src/img/indemand/img-13.jpg           |   Bin [31m17507[m -> [32m0[m bytes
+ public/src/img/indemand/img-14.jpg           |   Bin [31m10654[m -> [32m0[m bytes
+ public/src/img/indemand/img-15.jpg           |   Bin [31m14002[m -> [32m0[m bytes
+ public/src/img/indemand/img-16.jpg           |   Bin [31m14955[m -> [32m0[m bytes
+ public/src/img/indemand/img-17.jpg           |   Bin [31m17257[m -> [32m0[m bytes
+ public/src/img/indemand/img-18.jpg           |   Bin [31m22406[m -> [32m0[m bytes
+ public/src/img/indemand/img-2.jpg            |   Bin [31m8178[m -> [32m0[m bytes
+ public/src/img/indemand/img-3.jpg            |   Bin [31m13621[m -> [32m0[m bytes
+ public/src/img/indemand/img-4.jpg            |   Bin [31m22602[m -> [32m0[m bytes
+ public/src/img/indemand/img-5.jpg            |   Bin [31m10047[m -> [32m0[m bytes
+ public/src/img/indemand/img-6.jpg            |   Bin [31m11160[m -> [32m0[m bytes
+ public/src/img/indemand/img-7.jpg            |   Bin [31m17637[m -> [32m0[m bytes
+ public/src/img/indemand/img-8.jpg            |   Bin [31m8215[m -> [32m0[m bytes
+ public/src/img/indemand/img-9.jpg            |   Bin [31m18875[m -> [32m0[m bytes
+ public/src/img/menu/magnet.svg               |     2 [32m+[m[31m-[m
+ public/src/img/options/2/img-1.jpg           |   Bin [31m9516[m -> [32m0[m bytes
+ public/src/img/options/2/img-10.jpg          |   Bin [31m7297[m -> [32m0[m bytes
+ public/src/img/options/2/img-11.jpg          |   Bin [31m7901[m -> [32m0[m bytes
+ public/src/img/options/2/img-12.jpg          |   Bin [31m7872[m -> [32m0[m bytes
+ public/src/img/options/2/img-13.jpg          |   Bin [31m13583[m -> [32m0[m bytes
+ public/src/img/options/2/img-14.jpg          |   Bin [31m16959[m -> [32m0[m bytes
+ public/src/img/options/2/img-15.jpg          |   Bin [31m16655[m -> [32m0[m bytes
+ public/src/img/options/2/img-16.jpg          |   Bin [31m8910[m -> [32m0[m bytes
+ public/src/img/options/2/img-2.jpg           |   Bin [31m13965[m -> [32m0[m bytes
+ public/src/img/options/2/img-3.jpg           |   Bin [31m9247[m -> [32m0[m bytes
+ public/src/img/options/2/img-4.jpg           |   Bin [31m9679[m -> [32m0[m bytes
+ public/src/img/options/2/img-5.jpg           |   Bin [31m11734[m -> [32m0[m bytes
+ public/src/img/options/2/img-6.jpg           |   Bin [31m12834[m -> [32m0[m bytes
+ public/src/img/options/2/img-7.jpg           |   Bin [31m13253[m -> [32m0[m bytes
+ public/src/img/options/2/img-8.jpg           |   Bin [31m11278[m -> [32m0[m bytes
+ public/src/img/options/2/img-9.jpg           |   Bin [31m9229[m -> [32m0[m bytes
+ public/src/img/options/img-1.jpg             |   Bin [31m8024[m -> [32m0[m bytes
+ public/src/img/options/img-10.jpg            |   Bin [31m9235[m -> [32m0[m bytes
+ public/src/img/options/img-11.jpg            |   Bin [31m9138[m -> [32m0[m bytes
+ public/src/img/options/img-12.jpg            |   Bin [31m6051[m -> [32m0[m bytes
+ public/src/img/options/img-13.jpg            |   Bin [31m8255[m -> [32m0[m bytes
+ public/src/img/options/img-14.jpg            |   Bin [31m7253[m -> [32m0[m bytes
+ public/src/img/options/img-15.jpg            |   Bin [31m6898[m -> [32m0[m bytes
+ public/src/img/options/img-16.jpg            |   Bin [31m20255[m -> [32m0[m bytes
+ public/src/img/options/img-2.jpg             |   Bin [31m13925[m -> [32m0[m bytes
+ public/src/img/options/img-3.jpg             |   Bin [31m7305[m -> [32m0[m bytes
+ public/src/img/options/img-4.jpg             |   Bin [31m14544[m -> [32m0[m bytes
+ public/src/img/options/img-5.jpg             |   Bin [31m9728[m -> [32m0[m bytes
+ public/src/img/options/img-6.jpg             |   Bin [31m13175[m -> [32m0[m bytes
+ public/src/img/options/img-7.jpg             |   Bin [31m10054[m -> [32m0[m bytes
+ public/src/img/options/img-8.jpg             |   Bin [31m13317[m -> [32m0[m bytes
+ public/src/img/options/img-9.jpg             |   Bin [31m8761[m -> [32m0[m bytes
+ public/src/img/options/mobile/1/img-1.jpg    |   Bin [31m3548[m -> [32m0[m bytes
+ public/src/img/options/mobile/1/img-2.jpg    |   Bin [31m5582[m -> [32m0[m bytes
+ public/src/img/options/mobile/1/img-3.jpg    |   Bin [31m3710[m -> [32m0[m bytes
+ public/src/img/options/mobile/1/img-4.jpg    |   Bin [31m5755[m -> [32m0[m bytes
+ public/src/img/options/mobile/1/img-5.jpg    |   Bin [31m5904[m -> [32m0[m bytes
+ public/src/img/options/mobile/1/img-6.jpg    |   Bin [31m7678[m -> [32m0[m bytes
+ public/src/img/options/mobile/1/img-7.jpg    |   Bin [31m3940[m -> [32m0[m bytes
+ public/src/img/options/mobile/1/img-8.jpg    |   Bin [31m4719[m -> [32m0[m bytes
+ public/src/img/options/mobile/1/img-9.jpg    |   Bin [31m6434[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-1.jpg    |   Bin [31m5498[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-10.jpg   |   Bin [31m3923[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-2.jpg    |   Bin [31m3950[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-3.jpg    |   Bin [31m5536[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-4.jpg    |   Bin [31m4929[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-5.jpg    |   Bin [31m4731[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-6.jpg    |   Bin [31m4286[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-7.jpg    |   Bin [31m5829[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-8.jpg    |   Bin [31m5829[m -> [32m0[m bytes
+ public/src/img/options/mobile/2/img-9.jpg    |   Bin [31m5177[m -> [32m0[m bytes
+ public/src/img/options/mobile/3/img-1.jpg    |   Bin [31m3897[m -> [32m0[m bytes
+ public/src/img/options/mobile/3/img-2.jpg    |   Bin [31m3936[m -> [32m0[m bytes
+ public/src/img/options/mobile/3/img-3.jpg    |   Bin [31m3834[m -> [32m0[m bytes
+ public/src/img/options/mobile/3/img-4.jpg    |   Bin [31m2567[m -> [32m0[m bytes
+ public/src/img/options/mobile/3/img-5.jpg    |   Bin [31m6599[m -> [32m0[m bytes
+ public/src/img/options/mobile/3/img-6.jpg    |   Bin [31m4716[m -> [32m0[m bytes
+ public/src/img/options/mobile/3/img-7.jpg    |   Bin [31m5234[m -> [32m0[m bytes
+ public/src/img/options/mobile/3/img-8.jpg    |   Bin [31m6956[m -> [32m0[m bytes
+ public/src/img/options/mobile/3/img-9.jpg    |   Bin [31m2293[m -> [32m0[m bytes
+ public/src/img/options/mobile/4/img-1.jpg    |   Bin [31m3296[m -> [32m0[m bytes
+ public/src/img/options/mobile/4/img-2.jpg    |   Bin [31m2820[m -> [32m0[m bytes
+ public/src/img/options/mobile/4/img-3.jpg    |   Bin [31m2860[m -> [32m0[m bytes
+ public/src/img/options/mobile/4/img-4.jpg    |   Bin [31m7827[m -> [32m0[m bytes
+ public/src/img/options/mobile/4/img-5.jpg    |   Bin [31m3949[m -> [32m0[m bytes
+ public/src/img/options/mobile/4/img-6.jpg    |   Bin [31m2888[m -> [32m0[m bytes
+ public/src/img/options/mobile/4/img-7.jpg    |   Bin [31m3529[m -> [32m0[m bytes
+ public/src/img/options/mobile/4/img-8.jpg    |   Bin [31m3922[m -> [32m0[m bytes
+ public/src/img/options/mobile/4/img-9.jpg    |   Bin [31m2490[m -> [32m0[m bytes
+ public/src/img/options/mobile/5/img-1.jpg    |   Bin [31m3906[m -> [32m0[m bytes
+ public/src/img/options/mobile/5/img-2.jpg    |   Bin [31m5576[m -> [32m0[m bytes
+ public/src/img/options/mobile/5/img-3.jpg    |   Bin [31m3881[m -> [32m0[m bytes
+ public/src/img/options/mobile/5/img-4.jpg    |   Bin [31m4021[m -> [32m0[m bytes
+ public/src/img/options/mobile/5/img-5.jpg    |   Bin [31m2872[m -> [32m0[m bytes
+ public/src/img/options/mobile/5/img-6.jpg    |   Bin [31m4618[m -> [32m0[m bytes
+ public/src/img/options/mobile/5/img-7.jpg    |   Bin [31m4300[m -> [32m0[m bytes
+ public/src/img/options/mobile/5/img-8.jpg    |   Bin [31m3888[m -> [32m0[m bytes
+ public/src/img/options/mobile/5/img-9.jpg    |   Bin [31m3868[m -> [32m0[m bytes
+ public/src/img/options/mobile/6/img-1.jpg    |   Bin [31m4647[m -> [32m0[m bytes
+ public/src/img/options/mobile/6/img-2.jpg    |   Bin [31m5237[m -> [32m0[m bytes
+ public/src/img/options/mobile/6/img-3.jpg    |   Bin [31m4891[m -> [32m0[m bytes
+ public/src/img/options/mobile/6/img-4.jpg    |   Bin [31m4651[m -> [32m0[m bytes
+ public/src/img/options/mobile/6/img-5.jpg    |   Bin [31m4070[m -> [32m0[m bytes
+ public/src/img/options/mobile/6/img-6.jpg    |   Bin [31m3008[m -> [32m0[m bytes
+ public/src/img/options/mobile/6/img-7.jpg    |   Bin [31m4891[m -> [32m0[m bytes
+ public/src/img/options/mobile/6/img-8.jpg    |   Bin [31m4621[m -> [32m0[m bytes
+ public/src/img/options/mobile/6/img-9.jpg    |   Bin [31m4852[m -> [32m0[m bytes
+ public/src/img/options/mobile/7/img-1.jpg    |   Bin [31m3888[m -> [32m0[m bytes
+ public/src/img/options/mobile/7/img-2.jpg    |   Bin [31m3147[m -> [32m0[m bytes
+ public/src/img/options/mobile/7/img-3.jpg    |   Bin [31m3394[m -> [32m0[m bytes
+ public/src/img/options/mobile/7/img-4.jpg    |   Bin [31m3284[m -> [32m0[m bytes
+ public/src/img/options/mobile/7/img-5.jpg    |   Bin [31m4421[m -> [32m0[m bytes
+ public/src/img/options/mobile/7/img-6.jpg    |   Bin [31m2468[m -> [32m0[m bytes
+ public/src/img/options/mobile/7/img-7.jpg    |   Bin [31m3295[m -> [32m0[m bytes
+ public/src/img/options/mobile/7/img-8.jpg    |   Bin [31m3399[m -> [32m0[m bytes
+ public/src/img/options/mobile/7/img-9.jpg    |   Bin [31m3225[m -> [32m0[m bytes
+ public/src/img/options/mobile/8/img-1.jpg    |   Bin [31m5221[m -> [32m0[m bytes
+ public/src/img/options/mobile/8/img-2.jpg    |   Bin [31m6584[m -> [32m0[m bytes
+ public/src/img/options/mobile/8/img-3.jpg    |   Bin [31m6543[m -> [32m0[m bytes
+ public/src/img/options/mobile/8/img-4.jpg    |   Bin [31m3625[m -> [32m0[m bytes
+ public/src/img/options/mobile/8/img-5.jpg    |   Bin [31m3386[m -> [32m0[m bytes
+ public/src/img/options/mobile/8/img-6.jpg    |   Bin [31m4923[m -> [32m0[m bytes
+ public/src/img/options/mobile/8/img-7.jpg    |   Bin [31m4338[m -> [32m0[m bytes
+ public/src/img/options/mobile/8/img-8.jpg    |   Bin [31m4887[m -> [32m0[m bytes
+ public/src/img/options/mobile/8/img-9.jpg    |   Bin [31m6169[m -> [32m0[m bytes
+ public/src/img/partner/img-1.jpg             |   Bin [31m70772[m -> [32m0[m bytes
+ public/src/img/partner/img-2.jpg             |   Bin [31m35968[m -> [32m0[m bytes
+ public/src/img/partner/img-3.jpg             |   Bin [31m55668[m -> [32m0[m bytes
+ public/src/img/partner/img-4.jpg             |   Bin [31m58394[m -> [32m0[m bytes
+ public/src/img/slider/M1.gif                 |   Bin [31m789267[m -> [32m0[m bytes
+ public/src/img/slider/M10.jpg                |   Bin [31m158231[m -> [32m0[m bytes
+ public/src/img/slider/M11.jpg                |   Bin [31m96732[m -> [32m0[m bytes
+ public/src/img/slider/M12.jpg                |   Bin [31m109873[m -> [32m0[m bytes
+ public/src/img/slider/M2.jpg                 |   Bin [31m83445[m -> [32m0[m bytes
+ public/src/img/slider/M3.jpg                 |   Bin [31m210343[m -> [32m0[m bytes
+ public/src/img/slider/M4.jpg                 |   Bin [31m103109[m -> [32m0[m bytes
+ public/src/img/slider/M5.jpg                 |   Bin [31m76431[m -> [32m0[m bytes
+ public/src/img/slider/M6.jpg                 |   Bin [31m119939[m -> [32m0[m bytes
+ public/src/img/slider/M7.jpg                 |   Bin [31m71559[m -> [32m0[m bytes
+ public/src/img/slider/M8.jpg                 |   Bin [31m174773[m -> [32m0[m bytes
+ public/src/img/slider/M9.jpg                 |   Bin [31m186516[m -> [32m0[m bytes
+ public/src/img/slider/img-1.gif              |   Bin [31m1609981[m -> [32m0[m bytes
+ public/src/img/slider/img-10.jpg             |   Bin [31m271120[m -> [32m0[m bytes
+ public/src/img/slider/img-11.jpg             |   Bin [31m179156[m -> [32m0[m bytes
+ public/src/img/slider/img-12.jpg             |   Bin [31m317207[m -> [32m0[m bytes
+ public/src/img/slider/img-2.jpg              |   Bin [31m125377[m -> [32m0[m bytes
+ public/src/img/slider/img-3.jpg              |   Bin [31m468854[m -> [32m0[m bytes
+ public/src/img/slider/img-4.jpg              |   Bin [31m217006[m -> [32m0[m bytes
+ public/src/img/slider/img-5.jpg              |   Bin [31m126952[m -> [32m0[m bytes
+ public/src/img/slider/img-6.jpg              |   Bin [31m348443[m -> [32m0[m bytes
+ public/src/img/slider/img-7.jpg              |   Bin [31m124925[m -> [32m0[m bytes
+ public/src/img/slider/img-8.jpg              |   Bin [31m173585[m -> [32m0[m bytes
+ public/src/img/slider/img-9.jpg              |   Bin [31m358509[m -> [32m0[m bytes
+ public/src/img/story/img-1.jpg               |   Bin [31m23375[m -> [32m0[m bytes
+ public/src/img/story/img-10.jpg              |   Bin [31m30275[m -> [32m0[m bytes
+ public/src/img/story/img-11.jpg              |   Bin [31m9514[m -> [32m0[m bytes
+ public/src/img/story/img-12.jpg              |   Bin [31m21301[m -> [32m0[m bytes
+ public/src/img/story/img-2.jpg               |   Bin [31m24724[m -> [32m0[m bytes
+ public/src/img/story/img-3.jpg               |   Bin [31m20041[m -> [32m0[m bytes
+ public/src/img/story/img-4.jpg               |   Bin [31m25125[m -> [32m0[m bytes
+ public/src/img/story/img-5.jpg               |   Bin [31m25290[m -> [32m0[m bytes
+ public/src/img/story/img-6.jpg               |   Bin [31m28974[m -> [32m0[m bytes
+ public/src/img/story/img-7.jpg               |   Bin [31m16633[m -> [32m0[m bytes
+ public/src/img/story/img-8.jpg               |   Bin [31m22459[m -> [32m0[m bytes
+ public/src/img/story/img-9.jpg               |   Bin [31m26263[m -> [32m0[m bytes
+ src/css/main.css                             |    51 [32m+[m[31m-[m
+ src/css/output.css                           |  3016 [32m+[m[31m----[m
+ src/js/Body/Ads.js                           |   119 [32m+[m[31m-[m
+ src/js/Body/Blog.js                          |    11 [32m+[m[31m-[m
+ src/js/Body/Brands.js                        |    37 [32m+[m[31m-[m
+ src/js/Body/Grouping.js                      |    42 [32m+[m[31m-[m
+ src/js/Body/Hot.js                           |   188 [32m+[m[31m-[m
+ src/js/Body/Inc.js                           |   177 [32m+[m[31m-[m
+ src/js/Body/Indemand.js                      |   194 [32m+[m[31m-[m
+ src/js/Body/List.js                          |    34 [32m+[m[31m-[m
+ src/js/Body/OptionsM.js                      |   132 [32m+[m[31m-[m
+ src/js/Body/Partner.js                       |   128 [32m+[m[31m-[m
+ src/js/Body/Slider.js                        |    12 [32m+[m[31m-[m
+ src/js/Body/Story.js                         |    10 [32m+[m[31m-[m
+ src/js/Body/amazing.js                       |    98 [32m+[m[31m-[m
+ src/js/Mheader/MSearch.js                    |     1 [31m-[m
+ src/js/Mheader/MServices.js                  |    37 [32m+[m[31m-[m
+ src/js/api.js                                |    42 [32m+[m[31m-[m
+ src/js/fixedButton.js                        |    36 [32m+[m[31m-[m
+ src/js/header/annoying.js                    |     2 [32m+[m[31m-[m
+ src/js/header/console.js                     |     8 [32m+[m[31m-[m
+ src/js/header/location.js                    |     1 [31m-[m
+ src/js/header/navbar.js                      |     1 [31m-[m
+ src/js/main.js                               |     6 [32m+[m[31m-[m
+ vite.config.js                               |     8 [32m+[m[31m-[m
+ 365 files changed, 1511 insertions(+), 113992 deletions(-)

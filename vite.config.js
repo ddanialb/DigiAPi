@@ -1,5 +1,7 @@
 import { defineConfig } from "vite";
-
 export default defineConfig({
-    base: "/DigiAPi/",
+  base: "/DigiAPi/",
+  server: { host: "0.0.0.0", allowedHosts: [".e2b.app"] },
+  preview: { host: "0.0.0.0", allowedHosts: [".e2b.app"] },
+  build: { target: 'es2022' }
 });

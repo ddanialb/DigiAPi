@@ -43,5 +43,4 @@ async function NavBar() {
     console.error(error.message);
   }
 }
-NavBar();
 export default NavBar;

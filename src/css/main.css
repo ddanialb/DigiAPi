@@ -3,19 +3,10 @@
 @theme {
   --breakpoint-desktop: 1024px;
   --breakpoint-mobile: 10px;
-  --font-Iran: Shabnam;
+  --font-Iran: "Digikala", sans-serif;
   --border-color: #d7d7d7;
   --spacing-color: #d7d7d7;
-  --font-number: Shabnam;
-}
-
-@font-face {
-  font-family: Shabnam;
-  src: url(../fonts/Shabnam-Light-FD.woff2) format('woff2'),
-    url(../fonts/Shabnam-Light-FD.woff) format('woff'),
-    url(../fonts/Shabnam-Light-FD.ttf) format('truetype');
-  font-weight: 300;
-  font-style: normal;
+  --font-number: "Digikala", sans-serif;
 }
 
 @layer utilities {
@@ -32,29 +23,29 @@
   width: 300px;
   height: 200px;
   overflow-y: auto;
-  /* خیلی مهم */
+  
   padding: 10px;
   border: 1px solid #ccc;
 }
 
-/* کل اسکرول‌بار */
+
 .custom-scroll::-webkit-scrollbar {
   width: 8px;
 }
 
-/* پس‌زمینه اسکرول‌بار */
+
 .custom-scroll::-webkit-scrollbar-track {
   background: lightpink;
   border-radius: 10px;
 }
 
-/* خود اسکرول (thumb) */
+
 .custom-scroll::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 10px;
 }
 
-/* hover */
+
 .custom-scroll::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
@@ -122,20 +113,20 @@
   height: 5px;
 }
 
-/* hide scrollbar but keep scroll */
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 
 .no-scrollbar {
   -ms-overflow-style: none;
-  /* IE/Edge */
+  
   scrollbar-width: none;
-  /* Firefox */
+  
 }
 
 
-/* Services section smooth animation */
+
 .services-items {
   transition: all 0.3s ease-in-out;
 }
@@ -156,26 +147,26 @@
   transform: translateY(4px);
 }
 
-/* Fix logo aspect ratio */
+
 header .logo img {
   object-fit: contain;
   max-width: 100%;
   max-height: 100%;
 }
 
-/* Sticky header with smooth scroll behavior */
+
 header.sticky {
   position: sticky;
   top: 0;
   z-index: 50;
 }
 
-/* Smooth swiper transitions */
+
 .Slider {
   transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-/* Category menu slide from right */
+
 [data-tabs-sheet] {
   transform: translateX(100%);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -185,13 +176,13 @@ header.sticky {
   transform: translateX(0);
 }
 
-/* RTL support for category menu */
+
 html[dir="rtl"] [data-tabs-sheet] {
   right: 0;
   left: auto;
 }
 
-/* Desktop Category */
+
 .category {
   transition: all 0.3s ease-in-out;
   height: 32px;
@@ -210,7 +201,7 @@ html[dir="rtl"] [data-tabs-sheet] {
   overflow: hidden !important;
 }
 
-/* Mobile Services */
+
 header.sticky.mobile\:block {
   transition: height 0.3s ease;
 }
@@ -245,7 +236,7 @@ header.sticky.mobile\:block {
   margin: 0 !important;
 }
 
-/* Parallax Slider */
+
 @media (max-width: 1023px) {
   .parallax-slider {
     position: sticky !important;
@@ -266,7 +257,7 @@ header.sticky.mobile\:block {
   }
 }
 
-/* Desktop slider - remove any gaps */
+
 @media (min-width: 1024px) {
   .parallax-slider {
     margin-top: 0 !important;
@@ -274,7 +265,7 @@ header.sticky.mobile\:block {
   }
 }
 
-/* Mobile slider height fix */
+
 @media (max-width: 1023px) {
   .parallax-slider {
     height: 180px !important;

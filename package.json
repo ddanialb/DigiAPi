@@ -1,22 +1,21 @@
 {
-  "name": "package.json",
+  "name": "digiapi",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run build:css && vite build",
     "preview": "vite preview",
     "tailwind": "npx @tailwindcss/cli -i ./src/css/main.css -o ./src/css/output.css --watch",
-    "deploy": "npm run build && gh-pages -d dist"
+    "build:css": "tailwindcss -i ./src/css/main.css -o ./src/css/output.css --minify"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.1.18",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "@tailwindcss/cli": "^4.1.18"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.18",
     "swiper": "^12.1.3"
   }
 }
